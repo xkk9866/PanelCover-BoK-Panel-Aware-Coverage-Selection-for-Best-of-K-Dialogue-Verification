@@ -1,0 +1,197 @@
+{
+  "systems": {
+    "pasct_plus": {
+      "n": 500,
+      "histogram": {
+        "question": 0.136,
+        "reflection": 0.092,
+        "empathy": 0.078,
+        "reframe": 0.122,
+        "summarization": 0.064,
+        "action_suggestion": 0.298,
+        "safety_referral": 0.21
+      },
+      "entropy_bits": 2.6126065322332583,
+      "kl_to_uniform_bits": 0.19474838982434584,
+      "top1_accuracy_vs_factual": 0.106,
+      "macro_f1_vs_factual": 0.058822401227464516
+    },
+    "pasct_dro_anchor": {
+      "n": 500,
+      "histogram": {
+        "question": 0.228,
+        "reflection": 0.122,
+        "empathy": 0.06,
+        "reframe": 0.106,
+        "summarization": 0.026,
+        "action_suggestion": 0.126,
+        "safety_referral": 0.332
+      },
+      "entropy_bits": 2.4849006080898066,
+      "kl_to_uniform_bits": 0.32245431396779745,
+      "top1_accuracy_vs_factual": 0.168,
+      "macro_f1_vs_factual": 0.08132279827044689
+    },
+    "psystate_pasct": {
+      "n": 500,
+      "histogram": {
+        "question": 0.246,
+        "reflection": 0.118,
+        "empathy": 0.056,
+        "reframe": 0.084,
+        "summarization": 0.02,
+        "action_suggestion": 0.146,
+        "safety_referral": 0.33
+      },
+      "entropy_bits": 2.4405680191799464,
+      "kl_to_uniform_bits": 0.366786902877658,
+      "top1_accuracy_vs_factual": 0.172,
+      "macro_f1_vs_factual": 0.07358885017421603
+    },
+    "psystate_sctbok": {
+      "n": 500,
+      "histogram": {
+        "question": 0.244,
+        "reflection": 0.13,
+        "empathy": 0.046,
+        "reframe": 0.092,
+        "summarization": 0.024,
+        "action_suggestion": 0.128,
+        "safety_referral": 0.336
+      },
+      "entropy_bits": 2.437667254596205,
+      "kl_to_uniform_bits": 0.36968766746139947,
+      "top1_accuracy_vs_factual": 0.18,
+      "macro_f1_vs_factual": 0.08711869515314075
+    },
+    "oracle": {
+      "n": 500,
+      "histogram": {
+        "question": 0.562,
+        "reflection": 0.256,
+        "empathy": 0.03,
+        "reframe": 0.002,
+        "summarization": 0.0,
+        "action_suggestion": 0.018,
+        "safety_referral": 0.132
+      },
+      "entropy_bits": 1.6301113010483936,
+      "kl_to_uniform_bits": 1.1772436210092108,
+      "top1_accuracy_vs_factual": 0.87,
+      "macro_f1_vs_factual": 0.8093735593931252
+    },
+    "misc": {
+      "n": 500,
+      "histogram": {
+        "question": 0.36,
+        "reflection": 0.16,
+        "empathy": 0.026,
+        "reframe": 0.25,
+        "summarization": 0.0,
+        "action_suggestion": 0.074,
+        "safety_referral": 0.13
+      },
+      "entropy_bits": 2.2511438062139946,
+      "kl_to_uniform_bits": 0.5562111158436095,
+      "top1_accuracy_vs_factual": 0.272,
+      "macro_f1_vs_factual": 0.13462139259043393
+    },
+    "multiesc": {
+      "n": 500,
+      "histogram": {
+        "question": 0.352,
+        "reflection": 0.178,
+        "empathy": 0.33,
+        "reframe": 0.01,
+        "summarization": 0.0,
+        "action_suggestion": 0.0,
+        "safety_referral": 0.13
+      },
+      "entropy_bits": 1.9503703768460476,
+      "kl_to_uniform_bits": 0.8569845452115564,
+      "top1_accuracy_vs_factual": 0.274,
+      "macro_f1_vs_factual": 0.11726970569514227
+    },
+    "transesc": {
+      "n": 500,
+      "histogram": {
+        "question": 0.36,
+        "reflection": 0.168,
+        "empathy": 0.064,
+        "reframe": 0.278,
+        "summarization": 0.0,
+        "action_suggestion": 0.0,
+        "safety_referral": 0.13
+      },
+      "entropy_bits": 2.112834409045738,
+      "kl_to_uniform_bits": 0.6945205130118659,
+      "top1_accuracy_vs_factual": 0.258,
+      "macro_f1_vs_factual": 0.09827344710287854
+    },
+    "kemi": {
+      "n": 500,
+      "histogram": {
+        "question": 0.346,
+        "reflection": 0.184,
+        "empathy": 0.048,
+        "reframe": 0.0,
+        "summarization": 0.0,
+        "action_suggestion": 0.422,
+        "safety_referral": 0.0
+      },
+      "entropy_bits": 1.7146854603162425,
+      "kl_to_uniform_bits": 1.0926694617413617,
+      "top1_accuracy_vs_factual": 0.278,
+      "macro_f1_vs_factual": 0.1293511586452763
+    },
+    "rag": {
+      "n": 500,
+      "histogram": {
+        "question": 0.388,
+        "reflection": 0.184,
+        "empathy": 0.002,
+        "reframe": 0.25,
+        "summarization": 0.0,
+        "action_suggestion": 0.176,
+        "safety_referral": 0.0
+      },
+      "entropy_bits": 1.938376665933305,
+      "kl_to_uniform_bits": 0.868978256124299,
+      "top1_accuracy_vs_factual": 0.29,
+      "macro_f1_vs_factual": 0.11561474026656787
+    },
+    "majority": {
+      "n": 500,
+      "histogram": {
+        "question": 0.252,
+        "reflection": 0.176,
+        "empathy": 0.294,
+        "reframe": 0.0,
+        "summarization": 0.0,
+        "action_suggestion": 0.0,
+        "safety_referral": 0.278
+      },
+      "entropy_bits": 1.9748804914609175,
+      "kl_to_uniform_bits": 0.8324744305966866,
+      "top1_accuracy_vs_factual": 0.2,
+      "macro_f1_vs_factual": 0.09452310368492872
+    },
+    "lexicon": {
+      "n": 500,
+      "histogram": {
+        "question": 0.104,
+        "reflection": 0.184,
+        "empathy": 0.0,
+        "reframe": 0.256,
+        "summarization": 0.002,
+        "action_suggestion": 0.072,
+        "safety_referral": 0.382
+      },
+      "entropy_bits": 2.1137907416474206,
+      "kl_to_uniform_bits": 0.6935641804101835,
+      "top1_accuracy_vs_factual": 0.106,
+      "macro_f1_vs_factual": 0.05505018640374274
+    }
+  },
+  "n_eval": 500
+}

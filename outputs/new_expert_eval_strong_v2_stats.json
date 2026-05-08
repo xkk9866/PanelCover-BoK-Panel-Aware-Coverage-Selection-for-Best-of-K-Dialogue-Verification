@@ -1,0 +1,575 @@
+{
+  "input": "outputs/new_expert_eval_strong_v2.jsonl",
+  "pairs": {
+    "pasct_dro_anchor_vs_misc": {
+      "n": 400,
+      "dims": {
+        "overall": {
+          "win_rate": 0.52,
+          "wins": 82,
+          "losses": 66,
+          "ties": 252,
+          "n": 400,
+          "cluster_ci_lo": 0.485,
+          "cluster_ci_hi": 0.5525,
+          "signflip_p": 0.15136972605478904,
+          "cohen_h_vs_0_5": 0.04001067435398897
+        },
+        "helpfulness": {
+          "win_rate": 0.52625,
+          "wins": 84,
+          "losses": 63,
+          "ties": 253,
+          "n": 400,
+          "cluster_ci_lo": 0.49125,
+          "cluster_ci_hi": 0.55875,
+          "signflip_p": 0.07878424315136973,
+          "cohen_h_vs_0_5": 0.05252414714951703
+        },
+        "empathy": {
+          "win_rate": 0.53625,
+          "wins": 65,
+          "losses": 36,
+          "ties": 299,
+          "n": 400,
+          "cluster_ci_lo": 0.5075,
+          "cluster_ci_hi": 0.56625,
+          "signflip_p": 0.008398320335932814,
+          "cohen_h_vs_0_5": 0.07256366372068501
+        },
+        "specificity": {
+          "win_rate": 0.4725,
+          "wins": 47,
+          "losses": 69,
+          "ties": 284,
+          "n": 400,
+          "cluster_ci_lo": 0.44,
+          "cluster_ci_hi": 0.50375,
+          "signflip_p": 0.9564087182563488,
+          "cohen_h_vs_0_5": -0.05502776698110101
+        },
+        "appropriateness": {
+          "win_rate": 0.52,
+          "wins": 79,
+          "losses": 63,
+          "ties": 258,
+          "n": 400,
+          "cluster_ci_lo": 0.48625,
+          "cluster_ci_hi": 0.5525,
+          "signflip_p": 0.13357328534293142,
+          "cohen_h_vs_0_5": 0.04001067435398897
+        },
+        "safety": {
+          "win_rate": 0.52875,
+          "wins": 23,
+          "losses": 0,
+          "ties": 377,
+          "n": 400,
+          "cluster_ci_lo": 0.51625,
+          "cluster_ci_hi": 0.5425,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.057531732130000846
+        },
+        "actionability": {
+          "win_rate": 0.545,
+          "wins": 86,
+          "losses": 50,
+          "ties": 264,
+          "n": 400,
+          "cluster_ci_lo": 0.50875,
+          "cluster_ci_hi": 0.58125,
+          "signflip_p": 0.009398120375924815,
+          "cohen_h_vs_0_5": 0.09012194501459514
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.48,
+          "wins": 57,
+          "losses": 73,
+          "ties": 270,
+          "n": 400,
+          "cluster_ci_lo": 0.45,
+          "cluster_ci_hi": 0.51125,
+          "signflip_p": 0.9052189562087583,
+          "cohen_h_vs_0_5": -0.04001067435398897
+        },
+        "emotional_validation": {
+          "win_rate": 0.5525,
+          "wins": 82,
+          "losses": 40,
+          "ties": 278,
+          "n": 400,
+          "cluster_ci_lo": 0.52125,
+          "cluster_ci_hi": 0.58375,
+          "signflip_p": 0.0005998800239952009,
+          "cohen_h_vs_0_5": 0.1051939010403884
+        }
+      },
+      "by_rater": {
+        "E4_cbt_counsellor": {
+          "overall_win_rate": 0.525,
+          "n": 200
+        },
+        "E5_ux_reviewer": {
+          "overall_win_rate": 0.515,
+          "n": 200
+        }
+      }
+    },
+    "pasct_dro_anchor_vs_multiesc": {
+      "n": 400,
+      "dims": {
+        "overall": {
+          "win_rate": 0.535,
+          "wins": 99,
+          "losses": 71,
+          "ties": 230,
+          "n": 400,
+          "cluster_ci_lo": 0.5,
+          "cluster_ci_hi": 0.57,
+          "signflip_p": 0.03479304139172166,
+          "cohen_h_vs_0_5": 0.07005729308805031
+        },
+        "helpfulness": {
+          "win_rate": 0.54375,
+          "wins": 101,
+          "losses": 66,
+          "ties": 233,
+          "n": 400,
+          "cluster_ci_lo": 0.50871875,
+          "cluster_ci_hi": 0.58125,
+          "signflip_p": 0.010597880423915218,
+          "cohen_h_vs_0_5": 0.0876120400898277
+        },
+        "empathy": {
+          "win_rate": 0.46625,
+          "wins": 41,
+          "losses": 68,
+          "ties": 291,
+          "n": 400,
+          "cluster_ci_lo": 0.435,
+          "cluster_ci_hi": 0.49625,
+          "signflip_p": 0.9894021195760848,
+          "cohen_h_vs_0_5": -0.06755136319294253
+        },
+        "specificity": {
+          "win_rate": 0.53875,
+          "wins": 85,
+          "losses": 54,
+          "ties": 261,
+          "n": 400,
+          "cluster_ci_lo": 0.5025,
+          "cluster_ci_hi": 0.57375,
+          "signflip_p": 0.01879624075184963,
+          "cohen_h_vs_0_5": 0.07757779116806796
+        },
+        "appropriateness": {
+          "win_rate": 0.53125,
+          "wins": 92,
+          "losses": 67,
+          "ties": 241,
+          "n": 400,
+          "cluster_ci_lo": 0.49875,
+          "cluster_ci_hi": 0.56625,
+          "signflip_p": 0.04099180163967207,
+          "cohen_h_vs_0_5": 0.06254076179649126
+        },
+        "safety": {
+          "win_rate": 0.515,
+          "wins": 13,
+          "losses": 1,
+          "ties": 386,
+          "n": 400,
+          "cluster_ci_lo": 0.505,
+          "cluster_ci_hi": 0.52625,
+          "signflip_p": 0.005198960207958408,
+          "cohen_h_vs_0_5": 0.030004501823476915
+        },
+        "actionability": {
+          "win_rate": 0.62375,
+          "wins": 131,
+          "losses": 32,
+          "ties": 237,
+          "n": 400,
+          "cluster_ci_lo": 0.5875,
+          "cluster_ci_hi": 0.6625,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.25009912346968766
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.45125,
+          "wins": 53,
+          "losses": 92,
+          "ties": 255,
+          "n": 400,
+          "cluster_ci_lo": 0.41875,
+          "cluster_ci_hi": 0.48378124999999955,
+          "signflip_p": 0.9986002799440112,
+          "cohen_h_vs_0_5": -0.0976551411478801
+        },
+        "emotional_validation": {
+          "win_rate": 0.4725,
+          "wins": 60,
+          "losses": 82,
+          "ties": 258,
+          "n": 400,
+          "cluster_ci_lo": 0.4375,
+          "cluster_ci_hi": 0.50625,
+          "signflip_p": 0.9526094781043791,
+          "cohen_h_vs_0_5": -0.05502776698110101
+        }
+      },
+      "by_rater": {
+        "E4_cbt_counsellor": {
+          "overall_win_rate": 0.5875,
+          "n": 200
+        },
+        "E5_ux_reviewer": {
+          "overall_win_rate": 0.4825,
+          "n": 200
+        }
+      }
+    },
+    "pasct_dro_anchor_vs_transesc": {
+      "n": 400,
+      "dims": {
+        "overall": {
+          "win_rate": 0.505,
+          "wins": 75,
+          "losses": 71,
+          "ties": 254,
+          "n": 400,
+          "cluster_ci_lo": 0.47,
+          "cluster_ci_hi": 0.5375,
+          "signflip_p": 0.4387122575484903,
+          "cohen_h_vs_0_5": 0.010000166674166922
+        },
+        "helpfulness": {
+          "win_rate": 0.5075,
+          "wins": 75,
+          "losses": 69,
+          "ties": 256,
+          "n": 400,
+          "cluster_ci_lo": 0.4725,
+          "cluster_ci_hi": 0.54,
+          "signflip_p": 0.35912817436512695,
+          "cohen_h_vs_0_5": 0.015000562556960473
+        },
+        "empathy": {
+          "win_rate": 0.50125,
+          "wins": 47,
+          "losses": 46,
+          "ties": 307,
+          "n": 400,
+          "cluster_ci_lo": 0.4725,
+          "cluster_ci_hi": 0.53,
+          "signflip_p": 0.50749850029994,
+          "cohen_h_vs_0_5": 0.0025000026041737122
+        },
+        "specificity": {
+          "win_rate": 0.49375,
+          "wins": 56,
+          "losses": 61,
+          "ties": 283,
+          "n": 400,
+          "cluster_ci_lo": 0.46125,
+          "cluster_ci_hi": 0.52625,
+          "signflip_p": 0.6656668666266746,
+          "cohen_h_vs_0_5": -0.012500325543723712
+        },
+        "appropriateness": {
+          "win_rate": 0.5075,
+          "wins": 73,
+          "losses": 67,
+          "ties": 260,
+          "n": 400,
+          "cluster_ci_lo": 0.475,
+          "cluster_ci_hi": 0.53875,
+          "signflip_p": 0.3525294941011798,
+          "cohen_h_vs_0_5": 0.015000562556960473
+        },
+        "safety": {
+          "win_rate": 0.525,
+          "wins": 21,
+          "losses": 1,
+          "ties": 378,
+          "n": 400,
+          "cluster_ci_lo": 0.5125,
+          "cluster_ci_hi": 0.53875,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.050020856805770064
+        },
+        "actionability": {
+          "win_rate": 0.5575,
+          "wins": 91,
+          "losses": 45,
+          "ties": 264,
+          "n": 400,
+          "cluster_ci_lo": 0.52,
+          "cluster_ci_hi": 0.595,
+          "signflip_p": 0.0021995600879824036,
+          "cohen_h_vs_0_5": 0.11525499966757757
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.44375,
+          "wins": 46,
+          "losses": 91,
+          "ties": 263,
+          "n": 400,
+          "cluster_ci_lo": 0.41125,
+          "cluster_ci_hi": 0.475,
+          "signflip_p": 1.0,
+          "cohen_h_vs_0_5": -0.11273866648206088
+        },
+        "emotional_validation": {
+          "win_rate": 0.51875,
+          "wins": 68,
+          "losses": 53,
+          "ties": 279,
+          "n": 400,
+          "cluster_ci_lo": 0.48875,
+          "cluster_ci_hi": 0.55,
+          "signflip_p": 0.1329734053189362,
+          "cohen_h_vs_0_5": 0.037508794628988484
+        }
+      },
+      "by_rater": {
+        "E4_cbt_counsellor": {
+          "overall_win_rate": 0.5275,
+          "n": 200
+        },
+        "E5_ux_reviewer": {
+          "overall_win_rate": 0.4825,
+          "n": 200
+        }
+      }
+    },
+    "pasct_dro_anchor_vs_kemi": {
+      "n": 400,
+      "dims": {
+        "overall": {
+          "win_rate": 0.425,
+          "wins": 77,
+          "losses": 137,
+          "ties": 186,
+          "n": 400,
+          "cluster_ci_lo": 0.385,
+          "cluster_ci_hi": 0.465,
+          "signflip_p": 1.0,
+          "cohen_h_vs_0_5": -0.15056827277668616
+        },
+        "helpfulness": {
+          "win_rate": 0.415,
+          "wins": 73,
+          "losses": 141,
+          "ties": 186,
+          "n": 400,
+          "cluster_ci_lo": 0.375,
+          "cluster_ci_hi": 0.455,
+          "signflip_p": 1.0,
+          "cohen_h_vs_0_5": -0.1708296691291047
+        },
+        "empathy": {
+          "win_rate": 0.51,
+          "wins": 78,
+          "losses": 70,
+          "ties": 252,
+          "n": 400,
+          "cluster_ci_lo": 0.47625,
+          "cluster_ci_hi": 0.545,
+          "signflip_p": 0.31853629274145173,
+          "cohen_h_vs_0_5": 0.02000133357339018
+        },
+        "specificity": {
+          "win_rate": 0.34875,
+          "wins": 31,
+          "losses": 152,
+          "ties": 217,
+          "n": 400,
+          "cluster_ci_lo": 0.31375,
+          "cluster_ci_hi": 0.3825,
+          "signflip_p": 1.0,
+          "cohen_h_vs_0_5": -0.3073144499674554
+        },
+        "appropriateness": {
+          "win_rate": 0.43875,
+          "wins": 79,
+          "losses": 128,
+          "ties": 193,
+          "n": 400,
+          "cluster_ci_lo": 0.4,
+          "cluster_ci_hi": 0.4775,
+          "signflip_p": 0.9994001199760048,
+          "cohen_h_vs_0_5": -0.12280846518563382
+        },
+        "safety": {
+          "win_rate": 0.58375,
+          "wins": 67,
+          "losses": 0,
+          "ties": 333,
+          "n": 400,
+          "cluster_ci_lo": 0.56125,
+          "cluster_ci_hi": 0.6087812499999996,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.16829329395185022
+        },
+        "actionability": {
+          "win_rate": 0.41,
+          "wins": 68,
+          "losses": 140,
+          "ties": 192,
+          "n": 400,
+          "cluster_ci_lo": 0.3675,
+          "cluster_ci_hi": 0.455,
+          "signflip_p": 0.9998000399920016,
+          "cohen_h_vs_0_5": -0.18098645124654777
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.43875,
+          "wins": 74,
+          "losses": 123,
+          "ties": 203,
+          "n": 400,
+          "cluster_ci_lo": 0.39875,
+          "cluster_ci_hi": 0.47875,
+          "signflip_p": 0.9988002399520096,
+          "cohen_h_vs_0_5": -0.12280846518563382
+        },
+        "emotional_validation": {
+          "win_rate": 0.52875,
+          "wins": 102,
+          "losses": 79,
+          "ties": 219,
+          "n": 400,
+          "cluster_ci_lo": 0.49125,
+          "cluster_ci_hi": 0.56625,
+          "signflip_p": 0.07898420315936813,
+          "cohen_h_vs_0_5": 0.057531732130000846
+        }
+      },
+      "by_rater": {
+        "E4_cbt_counsellor": {
+          "overall_win_rate": 0.4225,
+          "n": 200
+        },
+        "E5_ux_reviewer": {
+          "overall_win_rate": 0.4275,
+          "n": 200
+        }
+      }
+    },
+    "pasct_dro_anchor_vs_rag": {
+      "n": 400,
+      "dims": {
+        "overall": {
+          "win_rate": 0.43,
+          "wins": 73,
+          "losses": 129,
+          "ties": 198,
+          "n": 400,
+          "cluster_ci_lo": 0.3875,
+          "cluster_ci_hi": 0.4725,
+          "signflip_p": 0.9994001199760048,
+          "cohen_h_vs_0_5": -0.14046141470985596
+        },
+        "helpfulness": {
+          "win_rate": 0.43375,
+          "wins": 74,
+          "losses": 127,
+          "ties": 199,
+          "n": 400,
+          "cluster_ci_lo": 0.39246875000000003,
+          "cluster_ci_hi": 0.475,
+          "signflip_p": 0.999000199960008,
+          "cohen_h_vs_0_5": -0.1328907958718908
+        },
+        "empathy": {
+          "win_rate": 0.4925,
+          "wins": 65,
+          "losses": 71,
+          "ties": 264,
+          "n": 400,
+          "cluster_ci_lo": 0.4625,
+          "cluster_ci_hi": 0.5225,
+          "signflip_p": 0.7098580283943211,
+          "cohen_h_vs_0_5": -0.015000562556960917
+        },
+        "specificity": {
+          "win_rate": 0.40625,
+          "wins": 46,
+          "losses": 121,
+          "ties": 233,
+          "n": 400,
+          "cluster_ci_lo": 0.3675,
+          "cluster_ci_hi": 0.445,
+          "signflip_p": 1.0,
+          "cohen_h_vs_0_5": -0.18861638617540444
+        },
+        "appropriateness": {
+          "win_rate": 0.46375,
+          "wins": 82,
+          "losses": 111,
+          "ties": 207,
+          "n": 400,
+          "cluster_ci_lo": 0.42375,
+          "cluster_ci_hi": 0.50375,
+          "signflip_p": 0.9630073985202959,
+          "cohen_h_vs_0_5": -0.07256366372068546
+        },
+        "safety": {
+          "win_rate": 0.56625,
+          "wins": 56,
+          "losses": 3,
+          "ties": 341,
+          "n": 400,
+          "cluster_ci_lo": 0.545,
+          "cluster_ci_hi": 0.59,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.13289079587189057
+        },
+        "actionability": {
+          "win_rate": 0.4775,
+          "wins": 87,
+          "losses": 105,
+          "ties": 208,
+          "n": 400,
+          "cluster_ci_lo": 0.435,
+          "cluster_ci_hi": 0.52125,
+          "signflip_p": 0.8504299140171966,
+          "cohen_h_vs_0_5": -0.045015201356314316
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.39125,
+          "wins": 48,
+          "losses": 135,
+          "ties": 217,
+          "n": 400,
+          "cluster_ci_lo": 0.35125,
+          "cluster_ci_hi": 0.43125,
+          "signflip_p": 1.0,
+          "cohen_h_vs_0_5": -0.21925241922953176
+        },
+        "emotional_validation": {
+          "win_rate": 0.50125,
+          "wins": 86,
+          "losses": 85,
+          "ties": 229,
+          "n": 400,
+          "cluster_ci_lo": 0.4675,
+          "cluster_ci_hi": 0.53375,
+          "signflip_p": 0.5026994601079784,
+          "cohen_h_vs_0_5": 0.0025000026041737122
+        }
+      },
+      "by_rater": {
+        "E4_cbt_counsellor": {
+          "overall_win_rate": 0.4325,
+          "n": 200
+        },
+        "E5_ux_reviewer": {
+          "overall_win_rate": 0.4275,
+          "n": 200
+        }
+      }
+    }
+  }
+}

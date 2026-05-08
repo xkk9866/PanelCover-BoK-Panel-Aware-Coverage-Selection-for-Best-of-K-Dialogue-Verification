@@ -1,0 +1,223 @@
+{
+  "pairs": {
+    "v12_bon_v12_vs_lexicon_bon_v12": {
+      "per_dim": {
+        "helpfulness": {
+          "win_rate": 0.5205,
+          "wins": 263,
+          "losses": 222,
+          "ties": 515,
+          "n": 1000
+        },
+        "empathy": {
+          "win_rate": 0.4745,
+          "wins": 73,
+          "losses": 124,
+          "ties": 803,
+          "n": 1000
+        },
+        "specificity": {
+          "win_rate": 0.5525,
+          "wins": 245,
+          "losses": 140,
+          "ties": 615,
+          "n": 1000
+        },
+        "appropriateness": {
+          "win_rate": 0.5175,
+          "wins": 224,
+          "losses": 189,
+          "ties": 587,
+          "n": 1000
+        },
+        "safety": {
+          "win_rate": 0.506,
+          "wins": 45,
+          "losses": 33,
+          "ties": 922,
+          "n": 1000
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.4685,
+          "wins": 187,
+          "losses": 250,
+          "ties": 563,
+          "n": 1000
+        },
+        "emotional_validation": {
+          "win_rate": 0.4595,
+          "wins": 97,
+          "losses": 178,
+          "ties": 725,
+          "n": 1000
+        },
+        "actionability": {
+          "win_rate": 0.608,
+          "wins": 360,
+          "losses": 144,
+          "ties": 496,
+          "n": 1000
+        },
+        "overall": {
+          "win_rate": 0.524,
+          "wins": 286,
+          "losses": 238,
+          "ties": 476,
+          "n": 1000
+        }
+      },
+      "per_subset": {
+        "distinct_strategy": {
+          "win_rate": 0.530045351473923,
+          "wins": 248,
+          "losses": 195,
+          "ties": 439,
+          "n": 882
+        },
+        "same_strategy": {
+          "win_rate": 0.4788135593220339,
+          "wins": 38,
+          "losses": 43,
+          "ties": 37,
+          "n": 118
+        },
+        "risk": {
+          "win_rate": 0.49193548387096775,
+          "wins": 61,
+          "losses": 66,
+          "ties": 183,
+          "n": 310
+        },
+        "rare_strategy": {
+          "win_rate": 0.5173410404624278,
+          "wins": 88,
+          "losses": 76,
+          "ties": 182,
+          "n": 346
+        },
+        "non_risk": {
+          "win_rate": 0.5384057971014493,
+          "wins": 225,
+          "losses": 172,
+          "ties": 293,
+          "n": 690
+        }
+      },
+      "n": 1000
+    },
+    "v12_bon_v12_vs_majority_bon_v12": {
+      "per_dim": {
+        "helpfulness": {
+          "win_rate": 0.5595,
+          "wins": 378,
+          "losses": 259,
+          "ties": 363,
+          "n": 1000
+        },
+        "empathy": {
+          "win_rate": 0.4155,
+          "wins": 54,
+          "losses": 223,
+          "ties": 723,
+          "n": 1000
+        },
+        "specificity": {
+          "win_rate": 0.6165,
+          "wins": 368,
+          "losses": 135,
+          "ties": 497,
+          "n": 1000
+        },
+        "appropriateness": {
+          "win_rate": 0.5455,
+          "wins": 321,
+          "losses": 230,
+          "ties": 449,
+          "n": 1000
+        },
+        "safety": {
+          "win_rate": 0.5255,
+          "wins": 75,
+          "losses": 24,
+          "ties": 901,
+          "n": 1000
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.421,
+          "wins": 213,
+          "losses": 371,
+          "ties": 416,
+          "n": 1000
+        },
+        "emotional_validation": {
+          "win_rate": 0.395,
+          "wins": 81,
+          "losses": 291,
+          "ties": 628,
+          "n": 1000
+        },
+        "actionability": {
+          "win_rate": 0.7475,
+          "wins": 585,
+          "losses": 90,
+          "ties": 325,
+          "n": 1000
+        },
+        "overall": {
+          "win_rate": 0.5705,
+          "wins": 414,
+          "losses": 273,
+          "ties": 313,
+          "n": 1000
+        }
+      },
+      "per_subset": {
+        "distinct_strategy": {
+          "win_rate": 0.5839002267573696,
+          "wins": 379,
+          "losses": 231,
+          "ties": 272,
+          "n": 882
+        },
+        "same_strategy": {
+          "win_rate": 0.4703389830508475,
+          "wins": 35,
+          "losses": 42,
+          "ties": 41,
+          "n": 118
+        },
+        "risk": {
+          "win_rate": 0.535483870967742,
+          "wins": 88,
+          "losses": 66,
+          "ties": 156,
+          "n": 310
+        },
+        "rare_strategy": {
+          "win_rate": 0.5867052023121387,
+          "wins": 153,
+          "losses": 93,
+          "ties": 100,
+          "n": 346
+        },
+        "non_risk": {
+          "win_rate": 0.586231884057971,
+          "wins": 326,
+          "losses": 207,
+          "ties": 157,
+          "n": 690
+        }
+      },
+      "n": 1000
+    }
+  },
+  "agreement": {
+    "krippendorff_alpha_overall": 0.8378129215229462,
+    "cohen_kappa_overall": {
+      "E1_supervisor_vs_E2_client_experience": 0.8700410044403978,
+      "E1_supervisor_vs_E3_safety_reviewer": 0.834142451001593,
+      "E2_client_experience_vs_E3_safety_reviewer": 0.80908326157383
+    },
+    "n_items_for_agreement": 2000
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "n_examples": 28,
+  "counters": {
+    "groups": 364,
+    "focal_win": 28,
+    "btgreedy_win": 22,
+    "tie_or_weak": 314,
+    "missing_response": 0
+  },
+  "out_jsonl": "data\\preference\\btgreedy_hard_negatives.jsonl",
+  "note": "DPO/IPO-ready hard negatives: chosen is PA-SCT-DRO only when proxy experts prefer it over BT-Greedy by the requested margin."
+}

@@ -1,0 +1,189 @@
+{
+  "focal": "pasct_dro_anchor",
+  "folds": {
+    "E1_supervisor": {
+      "misc": {
+        "n": 500,
+        "winrate": 0.5530756024770942,
+        "winrate_ci_lo": 0.5458954896376162,
+        "winrate_ci_hi": 0.5607837669398388,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.22140931277595052
+      },
+      "multiesc": {
+        "n": 500,
+        "winrate": 0.5627654399299904,
+        "winrate_ci_lo": 0.5558050925944122,
+        "winrate_ci_hi": 0.5702383653984942,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.26149974013074323
+      },
+      "transesc": {
+        "n": 500,
+        "winrate": 0.5577507438023074,
+        "winrate_ci_lo": 0.5503556631530347,
+        "winrate_ci_hi": 0.565615310661286,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.24140573108636432
+      },
+      "kemi": {
+        "n": 500,
+        "winrate": 0.5386497392901985,
+        "winrate_ci_lo": 0.532045114080924,
+        "winrate_ci_hi": 0.5453002112476486,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.1599594774761635
+      },
+      "rag": {
+        "n": 500,
+        "winrate": 0.5508122783098655,
+        "winrate_ci_lo": 0.5437562554126212,
+        "winrate_ci_hi": 0.5582072450666857,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.21186550485573688
+      }
+    },
+    "E2_client_experience": {
+      "misc": {
+        "n": 500,
+        "winrate": 0.549256804970563,
+        "winrate_ci_lo": 0.5426130757301179,
+        "winrate_ci_hi": 0.5562170538593407,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.20396371781262573
+      },
+      "multiesc": {
+        "n": 500,
+        "winrate": 0.5552913467575238,
+        "winrate_ci_lo": 0.5488164861823501,
+        "winrate_ci_hi": 0.5620507792717057,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.2287329070917774
+      },
+      "transesc": {
+        "n": 500,
+        "winrate": 0.5513055469680794,
+        "winrate_ci_lo": 0.5444480268905512,
+        "winrate_ci_hi": 0.5583741289667326,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.21279392215558443
+      },
+      "kemi": {
+        "n": 500,
+        "winrate": 0.5373652454364493,
+        "winrate_ci_lo": 0.5311945427677539,
+        "winrate_ci_hi": 0.5437055474395781,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.15371356772954997
+      },
+      "rag": {
+        "n": 500,
+        "winrate": 0.5486913209725671,
+        "winrate_ci_lo": 0.5419215708507278,
+        "winrate_ci_hi": 0.5555950238045265,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.20158693479407216
+      }
+    },
+    "E3_safety_reviewer": {
+      "misc": {
+        "n": 500,
+        "winrate": 0.5627795351786089,
+        "winrate_ci_lo": 0.5557122388307931,
+        "winrate_ci_hi": 0.5703148779853502,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.26179091295109846
+      },
+      "multiesc": {
+        "n": 500,
+        "winrate": 0.5710373835713911,
+        "winrate_ci_lo": 0.5644289798636472,
+        "winrate_ci_hi": 0.5783767815768216,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.29609275935662077
+      },
+      "transesc": {
+        "n": 500,
+        "winrate": 0.5678363023488686,
+        "winrate_ci_lo": 0.5608360657657062,
+        "winrate_ci_hi": 0.5753073699722185,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.28332685067991525
+      },
+      "kemi": {
+        "n": 500,
+        "winrate": 0.5476930780978266,
+        "winrate_ci_lo": 0.5410240658649539,
+        "winrate_ci_hi": 0.554708722701398,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.19793850163115168
+      },
+      "rag": {
+        "n": 500,
+        "winrate": 0.5604453855217082,
+        "winrate_ci_lo": 0.5535190060681419,
+        "winrate_ci_hi": 0.5677022681722387,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.2515065483765692
+      }
+    }
+  },
+  "strict_loo": {
+    "E1_supervisor": {
+      "n": 500,
+      "winrate_pasct_vs_btgreedy": 0.5004261461562148,
+      "winrate_ci_lo": 0.49886505064770287,
+      "winrate_ci_hi": 0.5020418835561151,
+      "p_value": 0.30813837232553487,
+      "utility_gap": 0.0017744106772705655
+    },
+    "E2_client_experience": {
+      "n": 500,
+      "winrate_pasct_vs_btgreedy": 0.4997422255885108,
+      "winrate_ci_lo": 0.49841769214804227,
+      "winrate_ci_hi": 0.5011279436096314,
+      "p_value": 0.6344731053789242,
+      "utility_gap": -0.0009764675280301959
+    },
+    "E3_safety_reviewer": {
+      "n": 500,
+      "winrate_pasct_vs_btgreedy": 0.5002308113208159,
+      "winrate_ci_lo": 0.4984830559843597,
+      "winrate_ci_hi": 0.5018437169229447,
+      "p_value": 0.3987202559488102,
+      "utility_gap": 0.0007719590632962711
+    }
+  },
+  "aggregated": {
+    "misc": {
+      "mean_winrate": 0.5550373142087554,
+      "min_winrate": 0.549256804970563,
+      "max_winrate": 0.5627795351786089,
+      "all_positive": true
+    },
+    "multiesc": {
+      "mean_winrate": 0.5630313900863018,
+      "min_winrate": 0.5552913467575238,
+      "max_winrate": 0.5710373835713911,
+      "all_positive": true
+    },
+    "transesc": {
+      "mean_winrate": 0.5589641977064185,
+      "min_winrate": 0.5513055469680794,
+      "max_winrate": 0.5678363023488686,
+      "all_positive": true
+    },
+    "kemi": {
+      "mean_winrate": 0.5412360209414915,
+      "min_winrate": 0.5373652454364493,
+      "max_winrate": 0.5476930780978266,
+      "all_positive": true
+    },
+    "rag": {
+      "mean_winrate": 0.5533163282680469,
+      "min_winrate": 0.5486913209725671,
+      "max_winrate": 0.5604453855217082,
+      "all_positive": true
+    }
+  }
+}

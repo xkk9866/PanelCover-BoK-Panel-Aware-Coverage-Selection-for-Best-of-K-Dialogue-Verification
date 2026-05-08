@@ -1,0 +1,1012 @@
+{
+  "pairs": {
+    "pasct_dro_anchor_vs_multiesc": {
+      "n": 400,
+      "per_dim": {
+        "helpfulness": {
+          "win_rate": 0.54375,
+          "wins": 101,
+          "losses": 66,
+          "ties": 233,
+          "n": 400
+        },
+        "empathy": {
+          "win_rate": 0.46625,
+          "wins": 41,
+          "losses": 68,
+          "ties": 291,
+          "n": 400
+        },
+        "specificity": {
+          "win_rate": 0.53875,
+          "wins": 85,
+          "losses": 54,
+          "ties": 261,
+          "n": 400
+        },
+        "appropriateness": {
+          "win_rate": 0.53125,
+          "wins": 92,
+          "losses": 67,
+          "ties": 241,
+          "n": 400
+        },
+        "safety": {
+          "win_rate": 0.515,
+          "wins": 13,
+          "losses": 1,
+          "ties": 386,
+          "n": 400
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.45125,
+          "wins": 53,
+          "losses": 92,
+          "ties": 255,
+          "n": 400
+        },
+        "emotional_validation": {
+          "win_rate": 0.4725,
+          "wins": 60,
+          "losses": 82,
+          "ties": 258,
+          "n": 400
+        },
+        "actionability": {
+          "win_rate": 0.62375,
+          "wins": 131,
+          "losses": 32,
+          "ties": 237,
+          "n": 400
+        },
+        "overall": {
+          "win_rate": 0.535,
+          "wins": 99,
+          "losses": 71,
+          "ties": 230,
+          "n": 400
+        }
+      },
+      "per_role": {
+        "E4_cbt_counsellor": {
+          "helpfulness": {
+            "win_rate": 0.5825,
+            "wins": 58,
+            "losses": 25,
+            "ties": 117,
+            "n": 200
+          },
+          "empathy": {
+            "win_rate": 0.4875,
+            "wins": 11,
+            "losses": 16,
+            "ties": 173,
+            "n": 200
+          },
+          "specificity": {
+            "win_rate": 0.55,
+            "wins": 48,
+            "losses": 28,
+            "ties": 124,
+            "n": 200
+          },
+          "appropriateness": {
+            "win_rate": 0.5875,
+            "wins": 58,
+            "losses": 23,
+            "ties": 119,
+            "n": 200
+          },
+          "safety": {
+            "win_rate": 0.52,
+            "wins": 8,
+            "losses": 0,
+            "ties": 192,
+            "n": 200
+          },
+          "avoids_over_advice": {
+            "win_rate": 0.505,
+            "wins": 39,
+            "losses": 37,
+            "ties": 124,
+            "n": 200
+          },
+          "emotional_validation": {
+            "win_rate": 0.495,
+            "wins": 29,
+            "losses": 31,
+            "ties": 140,
+            "n": 200
+          },
+          "actionability": {
+            "win_rate": 0.62,
+            "wins": 66,
+            "losses": 18,
+            "ties": 116,
+            "n": 200
+          },
+          "overall": {
+            "win_rate": 0.5875,
+            "wins": 60,
+            "losses": 25,
+            "ties": 115,
+            "n": 200
+          }
+        },
+        "E5_ux_reviewer": {
+          "helpfulness": {
+            "win_rate": 0.505,
+            "wins": 43,
+            "losses": 41,
+            "ties": 116,
+            "n": 200
+          },
+          "empathy": {
+            "win_rate": 0.445,
+            "wins": 30,
+            "losses": 52,
+            "ties": 118,
+            "n": 200
+          },
+          "specificity": {
+            "win_rate": 0.5275,
+            "wins": 37,
+            "losses": 26,
+            "ties": 137,
+            "n": 200
+          },
+          "appropriateness": {
+            "win_rate": 0.475,
+            "wins": 34,
+            "losses": 44,
+            "ties": 122,
+            "n": 200
+          },
+          "safety": {
+            "win_rate": 0.51,
+            "wins": 5,
+            "losses": 1,
+            "ties": 194,
+            "n": 200
+          },
+          "avoids_over_advice": {
+            "win_rate": 0.3975,
+            "wins": 14,
+            "losses": 55,
+            "ties": 131,
+            "n": 200
+          },
+          "emotional_validation": {
+            "win_rate": 0.45,
+            "wins": 31,
+            "losses": 51,
+            "ties": 118,
+            "n": 200
+          },
+          "actionability": {
+            "win_rate": 0.6275,
+            "wins": 65,
+            "losses": 14,
+            "ties": 121,
+            "n": 200
+          },
+          "overall": {
+            "win_rate": 0.4825,
+            "wins": 39,
+            "losses": 46,
+            "ties": 115,
+            "n": 200
+          }
+        }
+      }
+    },
+    "pasct_dro_anchor_vs_transesc": {
+      "n": 400,
+      "per_dim": {
+        "helpfulness": {
+          "win_rate": 0.5075,
+          "wins": 75,
+          "losses": 69,
+          "ties": 256,
+          "n": 400
+        },
+        "empathy": {
+          "win_rate": 0.5025,
+          "wins": 48,
+          "losses": 46,
+          "ties": 306,
+          "n": 400
+        },
+        "specificity": {
+          "win_rate": 0.49375,
+          "wins": 56,
+          "losses": 61,
+          "ties": 283,
+          "n": 400
+        },
+        "appropriateness": {
+          "win_rate": 0.5075,
+          "wins": 73,
+          "losses": 67,
+          "ties": 260,
+          "n": 400
+        },
+        "safety": {
+          "win_rate": 0.525,
+          "wins": 21,
+          "losses": 1,
+          "ties": 378,
+          "n": 400
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.44375,
+          "wins": 46,
+          "losses": 91,
+          "ties": 263,
+          "n": 400
+        },
+        "emotional_validation": {
+          "win_rate": 0.51875,
+          "wins": 68,
+          "losses": 53,
+          "ties": 279,
+          "n": 400
+        },
+        "actionability": {
+          "win_rate": 0.5575,
+          "wins": 91,
+          "losses": 45,
+          "ties": 264,
+          "n": 400
+        },
+        "overall": {
+          "win_rate": 0.505,
+          "wins": 75,
+          "losses": 71,
+          "ties": 254,
+          "n": 400
+        }
+      },
+      "per_role": {
+        "E4_cbt_counsellor": {
+          "helpfulness": {
+            "win_rate": 0.525,
+            "wins": 41,
+            "losses": 31,
+            "ties": 128,
+            "n": 200
+          },
+          "empathy": {
+            "win_rate": 0.5275,
+            "wins": 17,
+            "losses": 6,
+            "ties": 177,
+            "n": 200
+          },
+          "specificity": {
+            "win_rate": 0.5225,
+            "wins": 38,
+            "losses": 29,
+            "ties": 133,
+            "n": 200
+          },
+          "appropriateness": {
+            "win_rate": 0.53,
+            "wins": 42,
+            "losses": 30,
+            "ties": 128,
+            "n": 200
+          },
+          "safety": {
+            "win_rate": 0.5225,
+            "wins": 9,
+            "losses": 0,
+            "ties": 191,
+            "n": 200
+          },
+          "avoids_over_advice": {
+            "win_rate": 0.445,
+            "wins": 23,
+            "losses": 45,
+            "ties": 132,
+            "n": 200
+          },
+          "emotional_validation": {
+            "win_rate": 0.56,
+            "wins": 37,
+            "losses": 13,
+            "ties": 150,
+            "n": 200
+          },
+          "actionability": {
+            "win_rate": 0.5625,
+            "wins": 47,
+            "losses": 22,
+            "ties": 131,
+            "n": 200
+          },
+          "overall": {
+            "win_rate": 0.5275,
+            "wins": 42,
+            "losses": 31,
+            "ties": 127,
+            "n": 200
+          }
+        },
+        "E5_ux_reviewer": {
+          "helpfulness": {
+            "win_rate": 0.49,
+            "wins": 34,
+            "losses": 38,
+            "ties": 128,
+            "n": 200
+          },
+          "empathy": {
+            "win_rate": 0.4775,
+            "wins": 31,
+            "losses": 40,
+            "ties": 129,
+            "n": 200
+          },
+          "specificity": {
+            "win_rate": 0.465,
+            "wins": 18,
+            "losses": 32,
+            "ties": 150,
+            "n": 200
+          },
+          "appropriateness": {
+            "win_rate": 0.485,
+            "wins": 31,
+            "losses": 37,
+            "ties": 132,
+            "n": 200
+          },
+          "safety": {
+            "win_rate": 0.5275,
+            "wins": 12,
+            "losses": 1,
+            "ties": 187,
+            "n": 200
+          },
+          "avoids_over_advice": {
+            "win_rate": 0.4425,
+            "wins": 23,
+            "losses": 46,
+            "ties": 131,
+            "n": 200
+          },
+          "emotional_validation": {
+            "win_rate": 0.4775,
+            "wins": 31,
+            "losses": 40,
+            "ties": 129,
+            "n": 200
+          },
+          "actionability": {
+            "win_rate": 0.5525,
+            "wins": 44,
+            "losses": 23,
+            "ties": 133,
+            "n": 200
+          },
+          "overall": {
+            "win_rate": 0.4825,
+            "wins": 33,
+            "losses": 40,
+            "ties": 127,
+            "n": 200
+          }
+        }
+      }
+    },
+    "pasct_dro_anchor_vs_misc": {
+      "n": 400,
+      "per_dim": {
+        "helpfulness": {
+          "win_rate": 0.52625,
+          "wins": 84,
+          "losses": 63,
+          "ties": 253,
+          "n": 400
+        },
+        "empathy": {
+          "win_rate": 0.53625,
+          "wins": 65,
+          "losses": 36,
+          "ties": 299,
+          "n": 400
+        },
+        "specificity": {
+          "win_rate": 0.4725,
+          "wins": 47,
+          "losses": 69,
+          "ties": 284,
+          "n": 400
+        },
+        "appropriateness": {
+          "win_rate": 0.52,
+          "wins": 79,
+          "losses": 63,
+          "ties": 258,
+          "n": 400
+        },
+        "safety": {
+          "win_rate": 0.52875,
+          "wins": 23,
+          "losses": 0,
+          "ties": 377,
+          "n": 400
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.48,
+          "wins": 57,
+          "losses": 73,
+          "ties": 270,
+          "n": 400
+        },
+        "emotional_validation": {
+          "win_rate": 0.5525,
+          "wins": 82,
+          "losses": 40,
+          "ties": 278,
+          "n": 400
+        },
+        "actionability": {
+          "win_rate": 0.545,
+          "wins": 86,
+          "losses": 50,
+          "ties": 264,
+          "n": 400
+        },
+        "overall": {
+          "win_rate": 0.52,
+          "wins": 82,
+          "losses": 66,
+          "ties": 252,
+          "n": 400
+        }
+      },
+      "per_role": {
+        "E4_cbt_counsellor": {
+          "helpfulness": {
+            "win_rate": 0.525,
+            "wins": 42,
+            "losses": 32,
+            "ties": 126,
+            "n": 200
+          },
+          "empathy": {
+            "win_rate": 0.5525,
+            "wins": 26,
+            "losses": 5,
+            "ties": 169,
+            "n": 200
+          },
+          "specificity": {
+            "win_rate": 0.48,
+            "wins": 29,
+            "losses": 37,
+            "ties": 134,
+            "n": 200
+          },
+          "appropriateness": {
+            "win_rate": 0.525,
+            "wins": 41,
+            "losses": 31,
+            "ties": 128,
+            "n": 200
+          },
+          "safety": {
+            "win_rate": 0.5275,
+            "wins": 11,
+            "losses": 0,
+            "ties": 189,
+            "n": 200
+          },
+          "avoids_over_advice": {
+            "win_rate": 0.4825,
+            "wins": 29,
+            "losses": 36,
+            "ties": 135,
+            "n": 200
+          },
+          "emotional_validation": {
+            "win_rate": 0.585,
+            "wins": 43,
+            "losses": 9,
+            "ties": 148,
+            "n": 200
+          },
+          "actionability": {
+            "win_rate": 0.545,
+            "wins": 44,
+            "losses": 26,
+            "ties": 130,
+            "n": 200
+          },
+          "overall": {
+            "win_rate": 0.525,
+            "wins": 42,
+            "losses": 32,
+            "ties": 126,
+            "n": 200
+          }
+        },
+        "E5_ux_reviewer": {
+          "helpfulness": {
+            "win_rate": 0.5275,
+            "wins": 42,
+            "losses": 31,
+            "ties": 127,
+            "n": 200
+          },
+          "empathy": {
+            "win_rate": 0.52,
+            "wins": 39,
+            "losses": 31,
+            "ties": 130,
+            "n": 200
+          },
+          "specificity": {
+            "win_rate": 0.465,
+            "wins": 18,
+            "losses": 32,
+            "ties": 150,
+            "n": 200
+          },
+          "appropriateness": {
+            "win_rate": 0.515,
+            "wins": 38,
+            "losses": 32,
+            "ties": 130,
+            "n": 200
+          },
+          "safety": {
+            "win_rate": 0.53,
+            "wins": 12,
+            "losses": 0,
+            "ties": 188,
+            "n": 200
+          },
+          "avoids_over_advice": {
+            "win_rate": 0.4775,
+            "wins": 28,
+            "losses": 37,
+            "ties": 135,
+            "n": 200
+          },
+          "emotional_validation": {
+            "win_rate": 0.52,
+            "wins": 39,
+            "losses": 31,
+            "ties": 130,
+            "n": 200
+          },
+          "actionability": {
+            "win_rate": 0.545,
+            "wins": 42,
+            "losses": 24,
+            "ties": 134,
+            "n": 200
+          },
+          "overall": {
+            "win_rate": 0.515,
+            "wins": 40,
+            "losses": 34,
+            "ties": 126,
+            "n": 200
+          }
+        }
+      }
+    },
+    "pasct_dro_anchor_vs_rag_smoke": {
+      "n": 400,
+      "per_dim": {
+        "helpfulness": {
+          "win_rate": 0.51625,
+          "wins": 130,
+          "losses": 117,
+          "ties": 153,
+          "n": 400
+        },
+        "empathy": {
+          "win_rate": 0.4825,
+          "wins": 73,
+          "losses": 87,
+          "ties": 240,
+          "n": 400
+        },
+        "specificity": {
+          "win_rate": 0.50875,
+          "wins": 105,
+          "losses": 98,
+          "ties": 197,
+          "n": 400
+        },
+        "appropriateness": {
+          "win_rate": 0.52625,
+          "wins": 130,
+          "losses": 109,
+          "ties": 161,
+          "n": 400
+        },
+        "safety": {
+          "win_rate": 0.55875,
+          "wins": 51,
+          "losses": 4,
+          "ties": 345,
+          "n": 400
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.44125,
+          "wins": 84,
+          "losses": 131,
+          "ties": 185,
+          "n": 400
+        },
+        "emotional_validation": {
+          "win_rate": 0.46875,
+          "wins": 94,
+          "losses": 119,
+          "ties": 187,
+          "n": 400
+        },
+        "actionability": {
+          "win_rate": 0.52,
+          "wins": 125,
+          "losses": 109,
+          "ties": 166,
+          "n": 400
+        },
+        "overall": {
+          "win_rate": 0.5025,
+          "wins": 126,
+          "losses": 124,
+          "ties": 150,
+          "n": 400
+        }
+      },
+      "per_role": {
+        "E4_cbt_counsellor": {
+          "helpfulness": {
+            "win_rate": 0.53,
+            "wins": 67,
+            "losses": 55,
+            "ties": 78,
+            "n": 200
+          },
+          "empathy": {
+            "win_rate": 0.515,
+            "wins": 24,
+            "losses": 18,
+            "ties": 158,
+            "n": 200
+          },
+          "specificity": {
+            "win_rate": 0.53,
+            "wins": 61,
+            "losses": 49,
+            "ties": 90,
+            "n": 200
+          },
+          "appropriateness": {
+            "win_rate": 0.56,
+            "wins": 72,
+            "losses": 48,
+            "ties": 80,
+            "n": 200
+          },
+          "safety": {
+            "win_rate": 0.58,
+            "wins": 33,
+            "losses": 1,
+            "ties": 166,
+            "n": 200
+          },
+          "avoids_over_advice": {
+            "win_rate": 0.4575,
+            "wins": 46,
+            "losses": 63,
+            "ties": 91,
+            "n": 200
+          },
+          "emotional_validation": {
+            "win_rate": 0.49,
+            "wins": 45,
+            "losses": 49,
+            "ties": 106,
+            "n": 200
+          },
+          "actionability": {
+            "win_rate": 0.51,
+            "wins": 61,
+            "losses": 57,
+            "ties": 82,
+            "n": 200
+          },
+          "overall": {
+            "win_rate": 0.5225,
+            "wins": 67,
+            "losses": 58,
+            "ties": 75,
+            "n": 200
+          }
+        },
+        "E5_ux_reviewer": {
+          "helpfulness": {
+            "win_rate": 0.5025,
+            "wins": 63,
+            "losses": 62,
+            "ties": 75,
+            "n": 200
+          },
+          "empathy": {
+            "win_rate": 0.45,
+            "wins": 49,
+            "losses": 69,
+            "ties": 82,
+            "n": 200
+          },
+          "specificity": {
+            "win_rate": 0.4875,
+            "wins": 44,
+            "losses": 49,
+            "ties": 107,
+            "n": 200
+          },
+          "appropriateness": {
+            "win_rate": 0.4925,
+            "wins": 58,
+            "losses": 61,
+            "ties": 81,
+            "n": 200
+          },
+          "safety": {
+            "win_rate": 0.5375,
+            "wins": 18,
+            "losses": 3,
+            "ties": 179,
+            "n": 200
+          },
+          "avoids_over_advice": {
+            "win_rate": 0.425,
+            "wins": 38,
+            "losses": 68,
+            "ties": 94,
+            "n": 200
+          },
+          "emotional_validation": {
+            "win_rate": 0.4475,
+            "wins": 49,
+            "losses": 70,
+            "ties": 81,
+            "n": 200
+          },
+          "actionability": {
+            "win_rate": 0.53,
+            "wins": 64,
+            "losses": 52,
+            "ties": 84,
+            "n": 200
+          },
+          "overall": {
+            "win_rate": 0.4825,
+            "wins": 59,
+            "losses": 66,
+            "ties": 75,
+            "n": 200
+          }
+        }
+      }
+    },
+    "pasct_dro_anchor_vs_kemi": {
+      "n": 400,
+      "per_dim": {
+        "helpfulness": {
+          "win_rate": 0.415,
+          "wins": 73,
+          "losses": 141,
+          "ties": 186,
+          "n": 400
+        },
+        "empathy": {
+          "win_rate": 0.51,
+          "wins": 78,
+          "losses": 70,
+          "ties": 252,
+          "n": 400
+        },
+        "specificity": {
+          "win_rate": 0.34875,
+          "wins": 31,
+          "losses": 152,
+          "ties": 217,
+          "n": 400
+        },
+        "appropriateness": {
+          "win_rate": 0.43875,
+          "wins": 79,
+          "losses": 128,
+          "ties": 193,
+          "n": 400
+        },
+        "safety": {
+          "win_rate": 0.58375,
+          "wins": 67,
+          "losses": 0,
+          "ties": 333,
+          "n": 400
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.43875,
+          "wins": 74,
+          "losses": 123,
+          "ties": 203,
+          "n": 400
+        },
+        "emotional_validation": {
+          "win_rate": 0.52875,
+          "wins": 102,
+          "losses": 79,
+          "ties": 219,
+          "n": 400
+        },
+        "actionability": {
+          "win_rate": 0.41,
+          "wins": 68,
+          "losses": 140,
+          "ties": 192,
+          "n": 400
+        },
+        "overall": {
+          "win_rate": 0.425,
+          "wins": 77,
+          "losses": 137,
+          "ties": 186,
+          "n": 400
+        }
+      },
+      "per_role": {
+        "E4_cbt_counsellor": {
+          "helpfulness": {
+            "win_rate": 0.4225,
+            "wins": 38,
+            "losses": 69,
+            "ties": 93,
+            "n": 200
+          },
+          "empathy": {
+            "win_rate": 0.5525,
+            "wins": 34,
+            "losses": 13,
+            "ties": 153,
+            "n": 200
+          },
+          "specificity": {
+            "win_rate": 0.3575,
+            "wins": 20,
+            "losses": 77,
+            "ties": 103,
+            "n": 200
+          },
+          "appropriateness": {
+            "win_rate": 0.4525,
+            "wins": 43,
+            "losses": 62,
+            "ties": 95,
+            "n": 200
+          },
+          "safety": {
+            "win_rate": 0.6,
+            "wins": 40,
+            "losses": 0,
+            "ties": 160,
+            "n": 200
+          },
+          "avoids_over_advice": {
+            "win_rate": 0.45,
+            "wins": 40,
+            "losses": 60,
+            "ties": 100,
+            "n": 200
+          },
+          "emotional_validation": {
+            "win_rate": 0.5925,
+            "wins": 58,
+            "losses": 21,
+            "ties": 121,
+            "n": 200
+          },
+          "actionability": {
+            "win_rate": 0.395,
+            "wins": 32,
+            "losses": 74,
+            "ties": 94,
+            "n": 200
+          },
+          "overall": {
+            "win_rate": 0.4225,
+            "wins": 38,
+            "losses": 69,
+            "ties": 93,
+            "n": 200
+          }
+        },
+        "E5_ux_reviewer": {
+          "helpfulness": {
+            "win_rate": 0.4075,
+            "wins": 35,
+            "losses": 72,
+            "ties": 93,
+            "n": 200
+          },
+          "empathy": {
+            "win_rate": 0.4675,
+            "wins": 44,
+            "losses": 57,
+            "ties": 99,
+            "n": 200
+          },
+          "specificity": {
+            "win_rate": 0.34,
+            "wins": 11,
+            "losses": 75,
+            "ties": 114,
+            "n": 200
+          },
+          "appropriateness": {
+            "win_rate": 0.425,
+            "wins": 36,
+            "losses": 66,
+            "ties": 98,
+            "n": 200
+          },
+          "safety": {
+            "win_rate": 0.5675,
+            "wins": 27,
+            "losses": 0,
+            "ties": 173,
+            "n": 200
+          },
+          "avoids_over_advice": {
+            "win_rate": 0.4275,
+            "wins": 34,
+            "losses": 63,
+            "ties": 103,
+            "n": 200
+          },
+          "emotional_validation": {
+            "win_rate": 0.465,
+            "wins": 44,
+            "losses": 58,
+            "ties": 98,
+            "n": 200
+          },
+          "actionability": {
+            "win_rate": 0.425,
+            "wins": 36,
+            "losses": 66,
+            "ties": 98,
+            "n": 200
+          },
+          "overall": {
+            "win_rate": 0.4275,
+            "wins": 39,
+            "losses": 68,
+            "ties": 93,
+            "n": 200
+          }
+        }
+      }
+    }
+  },
+  "meta": {
+    "roles": [
+      "E4_cbt_counsellor",
+      "E5_ux_reviewer"
+    ],
+    "model": "qwen-max",
+    "n_contexts": 200
+  }
+}

@@ -1,0 +1,6 @@
+focal,baseline,n,winrate,winrate_ci_lo,winrate_ci_hi,p,utility_gap,utility_gap_ci_lo,utility_gap_ci_hi
+pasct_plus,misc,500,0.5410,0.5347,0.5477,0.0002,0.1704,0.1438,0.1989
+pasct_plus,multiesc,500,0.5490,0.5429,0.5555,0.0002,0.2035,0.1770,0.2311
+pasct_plus,transesc,500,0.5450,0.5385,0.5517,0.0002,0.1872,0.1597,0.2161
+pasct_plus,kemi,500,0.5272,0.5213,0.5332,0.0002,0.1119,0.0868,0.1372
+pasct_plus,rag,500,0.5393,0.5330,0.5458,0.0002,0.1630,0.1360,0.1908

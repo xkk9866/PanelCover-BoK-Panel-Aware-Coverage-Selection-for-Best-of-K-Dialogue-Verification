@@ -1,0 +1,249 @@
+{
+  "focal": "psystate_pasct",
+  "folds": {
+    "E1_supervisor": {
+      "btgreedy": {
+        "n": 500,
+        "winrate": 0.504063798103571,
+        "winrate_ci_lo": 0.5018755562896005,
+        "winrate_ci_hi": 0.5063271520582793,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.01622432448344886
+      },
+      "psystate_sctbok": {
+        "n": 500,
+        "winrate": 0.5196957016712629,
+        "winrate_ci_lo": 0.5156898500269171,
+        "winrate_ci_hi": 0.524067074670373,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.08177230993906878
+      },
+      "lexicon": {
+        "n": 500,
+        "winrate": 0.5373080687901415,
+        "winrate_ci_lo": 0.5305852057926044,
+        "winrate_ci_hi": 0.544456246292455,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.15548907424811784
+      },
+      "majority": {
+        "n": 500,
+        "winrate": 0.5530893255651711,
+        "winrate_ci_lo": 0.5464619628075752,
+        "winrate_ci_hi": 0.5600368695165105,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.2210447623727633
+      },
+      "misc": {
+        "n": 500,
+        "winrate": 0.5517259050873925,
+        "winrate_ci_lo": 0.5445462748377233,
+        "winrate_ci_hi": 0.5594037146840686,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.21556098315335656
+      },
+      "multiesc": {
+        "n": 500,
+        "winrate": 0.5614179866047313,
+        "winrate_ci_lo": 0.5545575268996809,
+        "winrate_ci_hi": 0.5687632262785555,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.2556514105081493
+      },
+      "transesc": {
+        "n": 500,
+        "winrate": 0.5564085767249682,
+        "winrate_ci_lo": 0.5490583677373947,
+        "winrate_ci_hi": 0.564174422442237,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.23555740146377036
+      }
+    },
+    "E2_client_experience": {
+      "btgreedy": {
+        "n": 500,
+        "winrate": 0.5032564834408871,
+        "winrate_ci_lo": 0.5013543690404267,
+        "winrate_ci_hi": 0.5051689387814242,
+        "p_value": 0.0005998800239952009,
+        "utility_gap": 0.013045591927805592
+      },
+      "psystate_sctbok": {
+        "n": 500,
+        "winrate": 0.5165246770151065,
+        "winrate_ci_lo": 0.513106322427579,
+        "winrate_ci_hi": 0.5201864904968106,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.06784251364170059
+      },
+      "lexicon": {
+        "n": 500,
+        "winrate": 0.5319248143900159,
+        "winrate_ci_lo": 0.5256031803273433,
+        "winrate_ci_hi": 0.5385667860880545,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.13196254962578893
+      },
+      "majority": {
+        "n": 500,
+        "winrate": 0.5442790292749305,
+        "winrate_ci_lo": 0.5382372890469758,
+        "winrate_ci_hi": 0.5505518175556904,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.18295719472992955
+      },
+      "misc": {
+        "n": 500,
+        "winrate": 0.548229282562793,
+        "winrate_ci_lo": 0.5416424667710782,
+        "winrate_ci_hi": 0.555205204975659,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.19961418433186948
+      },
+      "multiesc": {
+        "n": 500,
+        "winrate": 0.5542580679494183,
+        "winrate_ci_lo": 0.5477271809862287,
+        "winrate_ci_hi": 0.5609931479057116,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.22438337361102118
+      },
+      "transesc": {
+        "n": 500,
+        "winrate": 0.5502775544078938,
+        "winrate_ci_lo": 0.5433925804694061,
+        "winrate_ci_hi": 0.5574991361536321,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.2084443886748282
+      }
+    },
+    "E3_safety_reviewer": {
+      "btgreedy": {
+        "n": 500,
+        "winrate": 0.5064381486650497,
+        "winrate_ci_lo": 0.5036040919277387,
+        "winrate_ci_hi": 0.509309533223912,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.02597573719850012
+      },
+      "psystate_sctbok": {
+        "n": 500,
+        "winrate": 0.524197191384608,
+        "winrate_ci_lo": 0.5198583476772963,
+        "winrate_ci_hi": 0.528970964471617,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.10039666692442249
+      },
+      "lexicon": {
+        "n": 500,
+        "winrate": 0.5380971040016679,
+        "winrate_ci_lo": 0.5318129934866344,
+        "winrate_ci_hi": 0.5448581571955381,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.15842656731299057
+      },
+      "majority": {
+        "n": 500,
+        "winrate": 0.555039524209715,
+        "winrate_ci_lo": 0.5487208863967231,
+        "winrate_ci_hi": 0.5618710374245879,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.22868093850085822
+      },
+      "misc": {
+        "n": 500,
+        "winrate": 0.5611278386582551,
+        "winrate_ci_lo": 0.5541730423795092,
+        "winrate_ci_hi": 0.5686115940121758,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.25459050320445364
+      },
+      "multiesc": {
+        "n": 500,
+        "winrate": 0.5693686564969145,
+        "winrate_ci_lo": 0.562834549220566,
+        "winrate_ci_hi": 0.576604267215804,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.28889234960997595
+      },
+      "transesc": {
+        "n": 500,
+        "winrate": 0.5661914814098963,
+        "winrate_ci_lo": 0.5593277293524747,
+        "winrate_ci_hi": 0.5737305085467604,
+        "p_value": 0.0001999600079984003,
+        "utility_gap": 0.2761264409332704
+      }
+    }
+  },
+  "strict_loo": {
+    "E1_supervisor": {
+      "n": 500,
+      "winrate_pasct_vs_btgreedy": 0.4998013318691954,
+      "winrate_ci_lo": 0.4976496473109911,
+      "winrate_ci_hi": 0.5018184544351734,
+      "p_value": 0.5642871425714857,
+      "utility_gap": -0.0010930247963171066
+    },
+    "E2_client_experience": {
+      "n": 500,
+      "winrate_pasct_vs_btgreedy": 0.49927846913741963,
+      "winrate_ci_lo": 0.4974436886833051,
+      "winrate_ci_hi": 0.501042957789862,
+      "p_value": 0.7670465906818636,
+      "utility_gap": -0.002998902700852344
+    },
+    "E3_safety_reviewer": {
+      "n": 500,
+      "winrate_pasct_vs_btgreedy": 0.499299698170856,
+      "winrate_ci_lo": 0.4970157234804495,
+      "winrate_ci_hi": 0.501456813406343,
+      "p_value": 0.7106578684263147,
+      "utility_gap": -0.0033869050580701775
+    }
+  },
+  "aggregated": {
+    "btgreedy": {
+      "mean_winrate": 0.5045861434031692,
+      "min_winrate": 0.5032564834408871,
+      "max_winrate": 0.5064381486650497,
+      "all_positive": true
+    },
+    "psystate_sctbok": {
+      "mean_winrate": 0.5201391900236592,
+      "min_winrate": 0.5165246770151065,
+      "max_winrate": 0.524197191384608,
+      "all_positive": true
+    },
+    "lexicon": {
+      "mean_winrate": 0.5357766623939417,
+      "min_winrate": 0.5319248143900159,
+      "max_winrate": 0.5380971040016679,
+      "all_positive": true
+    },
+    "majority": {
+      "mean_winrate": 0.5508026263499389,
+      "min_winrate": 0.5442790292749305,
+      "max_winrate": 0.555039524209715,
+      "all_positive": true
+    },
+    "misc": {
+      "mean_winrate": 0.5536943421028137,
+      "min_winrate": 0.548229282562793,
+      "max_winrate": 0.5611278386582551,
+      "all_positive": true
+    },
+    "multiesc": {
+      "mean_winrate": 0.5616815703503547,
+      "min_winrate": 0.5542580679494183,
+      "max_winrate": 0.5693686564969145,
+      "all_positive": true
+    },
+    "transesc": {
+      "mean_winrate": 0.5576258708475862,
+      "min_winrate": 0.5502775544078938,
+      "max_winrate": 0.5661914814098963,
+      "all_positive": true
+    }
+  }
+}

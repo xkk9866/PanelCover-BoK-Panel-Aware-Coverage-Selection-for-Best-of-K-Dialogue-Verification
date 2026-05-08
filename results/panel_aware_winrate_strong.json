@@ -1,0 +1,55 @@
+{
+  "focal": "psystate_pasct",
+  "baselines": {
+    "misc": {
+      "n": 500,
+      "winrate": 0.5536943421028137,
+      "winrate_ci_lo": 0.5472444072389072,
+      "winrate_ci_hi": 0.5607194518666876,
+      "winrate_p_value": 0.0001999600079984003,
+      "utility_gap": 0.22325522356322652,
+      "utility_gap_ci_lo": 0.1955912262049046,
+      "utility_gap_ci_hi": 0.25339083294318643
+    },
+    "multiesc": {
+      "n": 500,
+      "winrate": 0.5616815703503546,
+      "winrate_ci_lo": 0.5554484370190539,
+      "winrate_ci_hi": 0.568472661442829,
+      "winrate_p_value": 0.0001999600079984003,
+      "utility_gap": 0.2563090445763821,
+      "utility_gap_ci_lo": 0.22936834372390588,
+      "utility_gap_ci_hi": 0.28535591768743135
+    },
+    "transesc": {
+      "n": 500,
+      "winrate": 0.5576258708475862,
+      "winrate_ci_lo": 0.5508768529402197,
+      "winrate_ci_hi": 0.5646952406928101,
+      "winrate_p_value": 0.0001999600079984003,
+      "utility_gap": 0.24004274369062295,
+      "utility_gap_ci_lo": 0.21105335856571922,
+      "utility_gap_ci_hi": 0.2702485809477248
+    },
+    "kemi_full": {
+      "n": 500,
+      "winrate": 0.5543868047294338,
+      "winrate_ci_lo": 0.5480402867705176,
+      "winrate_ci_hi": 0.5611115709395357,
+      "winrate_p_value": 0.0001999600079984003,
+      "utility_gap": 0.22576499030500877,
+      "utility_gap_ci_lo": 0.19855801211616997,
+      "utility_gap_ci_hi": 0.25449388393000755
+    },
+    "rag": {
+      "n": 500,
+      "winrate": 0.5519609791981638,
+      "winrate_ci_lo": 0.5453717290616281,
+      "winrate_ci_hi": 0.5587951311223003,
+      "winrate_p_value": 0.0001999600079984003,
+      "utility_gap": 0.21585357172546107,
+      "utility_gap_ci_lo": 0.18755407241627284,
+      "utility_gap_ci_hi": 0.2451038227133269
+    }
+  }
+}

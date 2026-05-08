@@ -1,0 +1,127 @@
+{
+  "seeds": {
+    "seed180": {
+      "tau_low": 0.4772302210330963,
+      "tau_high": 0.4772302210330963,
+      "variants": {
+        "original": {
+          "n": 872,
+          "n_pos": 122,
+          "tau_low": 0.4772302210330963,
+          "tau_high": 0.4772302210330963,
+          "severe_recall": 1.0,
+          "fnr": 0.0,
+          "ece": 0.11968901934563568,
+          "brier": 0.06276833059648441,
+          "pr_auc": 0.9740793265084333,
+          "fired_any": 215,
+          "fired_hard": 215,
+          "over_refusal_hard": 0.012,
+          "over_refusal_any": 0.012
+        },
+        "temperature": {
+          "n": 872,
+          "n_pos": 122,
+          "tau_low": 0.4772302210330963,
+          "tau_high": 0.4772302210330963,
+          "severe_recall": 0.9918032786885246,
+          "fnr": 0.00819672131147541,
+          "ece": 0.11372743673631151,
+          "brier": 0.06214829065182323,
+          "pr_auc": 0.9742753313882789,
+          "fired_any": 213,
+          "fired_hard": 213,
+          "over_refusal_hard": 0.012,
+          "over_refusal_any": 0.012,
+          "temperature": 0.8
+        },
+        "platt": {
+          "n": 872,
+          "n_pos": 122,
+          "tau_low": 0.4772302210330963,
+          "tau_high": 0.4772302210330963,
+          "severe_recall": 0.9098360655737705,
+          "fnr": 0.09016393442622951,
+          "ece": 0.016545368814339368,
+          "brier": 0.018713434710000414,
+          "pr_auc": 0.9742753313882789,
+          "fired_any": 127,
+          "fired_hard": 127,
+          "over_refusal_hard": 0.006,
+          "over_refusal_any": 0.006
+        },
+        "isotonic": {
+          "n": 872,
+          "n_pos": 122,
+          "tau_low": 0.4772302210330963,
+          "tau_high": 0.4772302210330963,
+          "severe_recall": 0.9836065573770492,
+          "fnr": 0.01639344262295082,
+          "ece": 0.002490171338666504,
+          "brier": 0.014708880697071913,
+          "pr_auc": 0.9730350177747265,
+          "fired_any": 139,
+          "fired_hard": 139,
+          "over_refusal_hard": 0.006,
+          "over_refusal_any": 0.006
+        },
+        "classcond": {
+          "n": 872,
+          "n_pos": 122,
+          "tau_low": 0.4772302210330963,
+          "tau_high": 0.4772302210330963,
+          "severe_recall": 1.0,
+          "fnr": 0.0,
+          "ece": 0.11968903387085014,
+          "brier": 0.0627683301766605,
+          "pr_auc": 0.9740793265084332,
+          "fired_any": 215,
+          "fired_hard": 215,
+          "over_refusal_hard": 0.012,
+          "over_refusal_any": 0.012
+        }
+      }
+    }
+  },
+  "config": {
+    "target_recall": 0.9,
+    "max_hard_over": 0.2
+  },
+  "seed_mean": {
+    "original": {
+      "severe_recall": 1.0,
+      "fnr": 0.0,
+      "ece": 0.11968901934563568,
+      "over_refusal_hard": 0.012,
+      "over_refusal_any": 0.012
+    },
+    "temperature": {
+      "severe_recall": 0.9918032786885246,
+      "fnr": 0.00819672131147541,
+      "ece": 0.11372743673631151,
+      "over_refusal_hard": 0.012,
+      "over_refusal_any": 0.012
+    },
+    "platt": {
+      "severe_recall": 0.9098360655737705,
+      "fnr": 0.09016393442622951,
+      "ece": 0.016545368814339368,
+      "over_refusal_hard": 0.006,
+      "over_refusal_any": 0.006
+    },
+    "isotonic": {
+      "severe_recall": 0.9836065573770492,
+      "fnr": 0.01639344262295082,
+      "ece": 0.002490171338666504,
+      "over_refusal_hard": 0.006,
+      "over_refusal_any": 0.006
+    },
+    "classcond": {
+      "severe_recall": 1.0,
+      "fnr": 0.0,
+      "ece": 0.11968903387085014,
+      "over_refusal_hard": 0.012,
+      "over_refusal_any": 0.012
+    }
+  }
+}

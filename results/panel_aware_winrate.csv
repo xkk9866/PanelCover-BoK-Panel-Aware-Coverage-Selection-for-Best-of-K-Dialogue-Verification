@@ -1,0 +1,9 @@
+focal,baseline,n,winrate,winrate_ci_lo,winrate_ci_hi,p,utility_gap,utility_gap_ci_lo,utility_gap_ci_hi
+psystate_pasct,btgreedy,500,0.5046,0.5025,0.5067,0.0002,0.0184,0.0095,0.0272
+psystate_pasct,psystate_sctbok,500,0.5201,0.5165,0.5241,0.0002,0.0833,0.0680,0.0999
+psystate_pasct,misc,500,0.5537,0.5472,0.5607,0.0002,0.2233,0.1956,0.2534
+psystate_pasct,multiesc,500,0.5617,0.5554,0.5685,0.0002,0.2563,0.2294,0.2854
+psystate_pasct,transesc,500,0.5576,0.5509,0.5647,0.0002,0.2400,0.2111,0.2702
+psystate_pasct,majority,500,0.5508,0.5448,0.5571,0.0002,0.2109,0.1851,0.2379
+psystate_pasct,lexicon,500,0.5358,0.5297,0.5423,0.0002,0.1486,0.1228,0.1762
+psystate_pasct,oracle,500,0.5879,0.5806,0.5955,0.0002,0.3744,0.3417,0.4085

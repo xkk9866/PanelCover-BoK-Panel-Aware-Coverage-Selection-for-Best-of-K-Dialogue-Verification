@@ -1,0 +1,6 @@
+focal,baseline,n,winrate,winrate_ci_lo,winrate_ci_hi,p,utility_gap,utility_gap_ci_lo,utility_gap_ci_hi
+pasct_cvar,btgreedy,500,0.5033,0.5010,0.5056,0.0018,0.0134,0.0036,0.0229
+pasct_cvar,pasct_dro_anchor,500,0.4974,0.4957,0.4988,1.0000,-0.0109,-0.0184,-0.0049
+pasct_cvar,misc,500,0.5524,0.5459,0.5595,0.0002,0.2182,0.1904,0.2485
+pasct_cvar,multiesc,500,0.5604,0.5540,0.5672,0.0002,0.2513,0.2241,0.2803
+pasct_cvar,transesc,500,0.5564,0.5496,0.5635,0.0002,0.2350,0.2058,0.2657

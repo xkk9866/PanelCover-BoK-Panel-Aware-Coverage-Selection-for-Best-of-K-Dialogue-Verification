@@ -1,0 +1,210 @@
+{
+  "focal": "pasct_dro_anchor_bon_responses",
+  "experts": [
+    "E1_supervisor",
+    "E2_client_experience",
+    "E3_safety_reviewer"
+  ],
+  "rows": {
+    "misc_bon_responses": {
+      "n": 500,
+      "bt_overall_pool_soft": 0.5549873983925154,
+      "bt_overall_pool_hard": {
+        "win_rate": 0.69,
+        "wins": 262,
+        "losses": 72,
+        "ties": 166,
+        "n": 500
+      },
+      "per_expert_soft": {
+        "E1_supervisor": 0.5494720198500429,
+        "E2_client_experience": 0.5484026077080435,
+        "E3_safety_reviewer": 0.5599351751594167
+      },
+      "per_expert_hard": {
+        "E1_supervisor": {
+          "win_rate": 0.724,
+          "wins": 261,
+          "losses": 37,
+          "ties": 202,
+          "n": 500
+        },
+        "E2_client_experience": {
+          "win_rate": 0.731,
+          "wins": 259,
+          "losses": 28,
+          "ties": 213,
+          "n": 500
+        },
+        "E3_safety_reviewer": {
+          "win_rate": 0.753,
+          "wins": 278,
+          "losses": 25,
+          "ties": 197,
+          "n": 500
+        }
+      },
+      "panel_mean_soft": 0.552603267572501
+    },
+    "multiesc_bon_responses": {
+      "n": 500,
+      "bt_overall_pool_soft": 0.5570654737208597,
+      "bt_overall_pool_hard": {
+        "win_rate": 0.722,
+        "wins": 293,
+        "losses": 71,
+        "ties": 136,
+        "n": 500
+      },
+      "per_expert_soft": {
+        "E1_supervisor": 0.5597706409382324,
+        "E2_client_experience": 0.5549540271971932,
+        "E3_safety_reviewer": 0.5681322755524603
+      },
+      "per_expert_hard": {
+        "E1_supervisor": {
+          "win_rate": 0.763,
+          "wins": 294,
+          "losses": 31,
+          "ties": 175,
+          "n": 500
+        },
+        "E2_client_experience": {
+          "win_rate": 0.755,
+          "wins": 282,
+          "losses": 27,
+          "ties": 191,
+          "n": 500
+        },
+        "E3_safety_reviewer": {
+          "win_rate": 0.774,
+          "wins": 299,
+          "losses": 25,
+          "ties": 176,
+          "n": 500
+        }
+      },
+      "panel_mean_soft": 0.5609523145626286
+    },
+    "transesc_bon_responses": {
+      "n": 500,
+      "bt_overall_pool_soft": 0.5531795531785727,
+      "bt_overall_pool_hard": {
+        "win_rate": 0.685,
+        "wins": 265,
+        "losses": 80,
+        "ties": 155,
+        "n": 500
+      },
+      "per_expert_soft": {
+        "E1_supervisor": 0.5547984102795609,
+        "E2_client_experience": 0.5507876547283161,
+        "E3_safety_reviewer": 0.5648891235125623
+      },
+      "per_expert_hard": {
+        "E1_supervisor": {
+          "win_rate": 0.733,
+          "wins": 271,
+          "losses": 38,
+          "ties": 191,
+          "n": 500
+        },
+        "E2_client_experience": {
+          "win_rate": 0.729,
+          "wins": 263,
+          "losses": 34,
+          "ties": 203,
+          "n": 500
+        },
+        "E3_safety_reviewer": {
+          "win_rate": 0.761,
+          "wins": 287,
+          "losses": 26,
+          "ties": 187,
+          "n": 500
+        }
+      },
+      "panel_mean_soft": 0.5568250628401464
+    },
+    "kemi_full_bon_responses": {
+      "n": 500,
+      "bt_overall_pool_soft": 0.5524821627570976,
+      "bt_overall_pool_hard": {
+        "win_rate": 0.696,
+        "wins": 270,
+        "losses": 74,
+        "ties": 156,
+        "n": 500
+      },
+      "per_expert_soft": {
+        "E1_supervisor": 0.5517856065229916,
+        "E2_client_experience": 0.5485468289844582,
+        "E3_safety_reviewer": 0.5614521494140963
+      },
+      "per_expert_hard": {
+        "E1_supervisor": {
+          "win_rate": 0.736,
+          "wins": 270,
+          "losses": 34,
+          "ties": 196,
+          "n": 500
+        },
+        "E2_client_experience": {
+          "win_rate": 0.732,
+          "wins": 260,
+          "losses": 28,
+          "ties": 212,
+          "n": 500
+        },
+        "E3_safety_reviewer": {
+          "win_rate": 0.755,
+          "wins": 280,
+          "losses": 25,
+          "ties": 195,
+          "n": 500
+        }
+      },
+      "panel_mean_soft": 0.5539281949738487
+    },
+    "rag_bon_responses": {
+      "n": 500,
+      "bt_overall_pool_soft": 0.5535075963987349,
+      "bt_overall_pool_hard": {
+        "win_rate": 0.688,
+        "wins": 256,
+        "losses": 68,
+        "ties": 176,
+        "n": 500
+      },
+      "per_expert_soft": {
+        "E1_supervisor": 0.5473916118204583,
+        "E2_client_experience": 0.5478961994292644,
+        "E3_safety_reviewer": 0.5576516346533775
+      },
+      "per_expert_hard": {
+        "E1_supervisor": {
+          "win_rate": 0.714,
+          "wins": 253,
+          "losses": 39,
+          "ties": 208,
+          "n": 500
+        },
+        "E2_client_experience": {
+          "win_rate": 0.722,
+          "wins": 253,
+          "losses": 31,
+          "ties": 216,
+          "n": 500
+        },
+        "E3_safety_reviewer": {
+          "win_rate": 0.744,
+          "wins": 269,
+          "losses": 25,
+          "ties": 206,
+          "n": 500
+        }
+      },
+      "panel_mean_soft": 0.5509798153010333
+    }
+  }
+}

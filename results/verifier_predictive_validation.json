@@ -1,0 +1,53 @@
+{
+  "pooled_bt": {
+    "log_loss": 0.5233797165056263,
+    "accuracy": 0.7743696386794905,
+    "kendall_tau": 0.5672845837683727,
+    "n": 3847
+  },
+  "per_expert_bt": {
+    "log_loss": 0.5174892932034457,
+    "accuracy": 0.7499350142968547,
+    "kendall_tau": 0.5789014362325092,
+    "n": 3847
+  },
+  "panel_state_bt": {
+    "log_loss": 0.5706185661279429,
+    "accuracy": 0.7577332986742916,
+    "kendall_tau": 0.5597984652002117,
+    "n": 3847
+  },
+  "pooled_bt_high_disagreement": {
+    "log_loss": 0.564944691197911,
+    "accuracy": 0.6995614035087719,
+    "kendall_tau": 0.48845029839187115,
+    "n": 456
+  },
+  "panel_state_high_disagreement": {
+    "log_loss": 0.5784018968538249,
+    "accuracy": 0.7280701754385965,
+    "n": 456
+  },
+  "pooled_bt_mid_disagreement": {
+    "log_loss": 0.49618515457658374,
+    "accuracy": 0.7804878048780488,
+    "kendall_tau": 0.6129354930353909,
+    "n": 451
+  },
+  "panel_state_mid_disagreement": {
+    "log_loss": 0.5494986384630722,
+    "accuracy": 0.7782705099778271,
+    "n": 451
+  },
+  "pooled_bt_low_disagreement": {
+    "log_loss": 0.48755185823050384,
+    "accuracy": 0.8290993071593533,
+    "kendall_tau": 0.6152552988036549,
+    "n": 433
+  },
+  "panel_state_low_disagreement": {
+    "log_loss": 0.5557468613890664,
+    "accuracy": 0.7967667436489607,
+    "n": 433
+  }
+}

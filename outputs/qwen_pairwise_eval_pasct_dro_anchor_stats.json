@@ -1,0 +1,241 @@
+{
+  "input": "outputs/qwen_pairwise_eval_pasct_dro_anchor.jsonl",
+  "pairs": {
+    "pasct_dro_anchor_vs_btgreedy": {
+      "n": 900,
+      "dims": {
+        "overall": {
+          "win_rate": 0.5011111111111111,
+          "wins": 10,
+          "losses": 8,
+          "ties": 882,
+          "n": 900,
+          "cluster_ci_lo": 0.4938888888888889,
+          "cluster_ci_hi": 0.5083333333333333,
+          "signflip_p": 0.49150169966006796,
+          "cohen_h_vs_0_5": 0.0022222240512155267
+        },
+        "helpfulness": {
+          "win_rate": 0.5011111111111111,
+          "wins": 10,
+          "losses": 8,
+          "ties": 882,
+          "n": 900,
+          "cluster_ci_lo": 0.4938888888888889,
+          "cluster_ci_hi": 0.5083333333333333,
+          "signflip_p": 0.49150169966006796,
+          "cohen_h_vs_0_5": 0.0022222240512155267
+        },
+        "empathy": {
+          "win_rate": 0.5027777777777778,
+          "wins": 6,
+          "losses": 1,
+          "ties": 893,
+          "n": 900,
+          "cluster_ci_lo": 0.49944444444444436,
+          "cluster_ci_hi": 0.5072222222222222,
+          "signflip_p": 0.1853629274145171,
+          "cohen_h_vs_0_5": 0.005555584133912994
+        },
+        "specificity": {
+          "win_rate": 0.5005555555555555,
+          "wins": 6,
+          "losses": 5,
+          "ties": 889,
+          "n": 900,
+          "cluster_ci_lo": 0.4955555555555555,
+          "cluster_ci_hi": 0.5066666666666667,
+          "signflip_p": 0.5002999400119976,
+          "cohen_h_vs_0_5": 0.0011111113397348493
+        },
+        "appropriateness": {
+          "win_rate": 0.5011111111111111,
+          "wins": 10,
+          "losses": 8,
+          "ties": 882,
+          "n": 900,
+          "cluster_ci_lo": 0.4938888888888889,
+          "cluster_ci_hi": 0.5083333333333333,
+          "signflip_p": 0.49150169966006796,
+          "cohen_h_vs_0_5": 0.0022222240512155267
+        },
+        "safety": {
+          "win_rate": 0.49944444444444447,
+          "wins": 2,
+          "losses": 3,
+          "ties": 895,
+          "n": 900,
+          "cluster_ci_lo": 0.4955555555555555,
+          "cluster_ci_hi": 0.5022222222222222,
+          "signflip_p": 0.6236752649470106,
+          "cohen_h_vs_0_5": -0.0011111113397350714
+        },
+        "actionability": {
+          "win_rate": 0.49944444444444447,
+          "wins": 6,
+          "losses": 7,
+          "ties": 887,
+          "n": 900,
+          "cluster_ci_lo": 0.49333333333333335,
+          "cluster_ci_hi": 0.5055555555555556,
+          "signflip_p": 0.5886822635472906,
+          "cohen_h_vs_0_5": -0.0011111113397350714
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.5011111111111111,
+          "wins": 7,
+          "losses": 5,
+          "ties": 888,
+          "n": 900,
+          "cluster_ci_lo": 0.49611111111111106,
+          "cluster_ci_hi": 0.5061111111111111,
+          "signflip_p": 0.373125374925015,
+          "cohen_h_vs_0_5": 0.0022222240512155267
+        },
+        "emotional_validation": {
+          "win_rate": 0.5033333333333333,
+          "wins": 9,
+          "losses": 3,
+          "ties": 888,
+          "n": 900,
+          "cluster_ci_lo": 0.4977777777777778,
+          "cluster_ci_hi": 0.51,
+          "signflip_p": 0.21235752849430115,
+          "cohen_h_vs_0_5": 0.0066667160503701695
+        }
+      },
+      "by_rater": {
+        "E1_supervisor_proxy": {
+          "overall_win_rate": 0.5,
+          "n": 300
+        },
+        "E2_client_experience_proxy": {
+          "overall_win_rate": 0.5,
+          "n": 300
+        },
+        "E3_safety_reviewer_proxy": {
+          "overall_win_rate": 0.5033333333333333,
+          "n": 300
+        }
+      }
+    },
+    "pasct_dro_anchor_vs_misc": {
+      "n": 900,
+      "dims": {
+        "overall": {
+          "win_rate": 0.6177777777777778,
+          "wins": 281,
+          "losses": 69,
+          "ties": 550,
+          "n": 900,
+          "cluster_ci_lo": 0.5905555555555555,
+          "cluster_ci_hi": 0.6444583333333332,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.23779016955810395
+        },
+        "helpfulness": {
+          "win_rate": 0.6144444444444445,
+          "wins": 267,
+          "losses": 61,
+          "ties": 572,
+          "n": 900,
+          "cluster_ci_lo": 0.5877777777777777,
+          "cluster_ci_hi": 0.6405555555555557,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.23093611670433867
+        },
+        "empathy": {
+          "win_rate": 0.5416666666666666,
+          "wins": 105,
+          "losses": 30,
+          "ties": 765,
+          "n": 900,
+          "cluster_ci_lo": 0.5233333333333333,
+          "cluster_ci_hi": 0.5594444444444444,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.0834300866106148
+        },
+        "specificity": {
+          "win_rate": 0.56,
+          "wins": 175,
+          "losses": 67,
+          "ties": 658,
+          "n": 900,
+          "cluster_ci_lo": 0.5355555555555557,
+          "cluster_ci_hi": 0.585,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.120289882394788
+        },
+        "appropriateness": {
+          "win_rate": 0.6144444444444445,
+          "wins": 264,
+          "losses": 58,
+          "ties": 578,
+          "n": 900,
+          "cluster_ci_lo": 0.5877777777777777,
+          "cluster_ci_hi": 0.6405555555555557,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.23093611670433867
+        },
+        "safety": {
+          "win_rate": 0.5544444444444444,
+          "wins": 103,
+          "losses": 5,
+          "ties": 792,
+          "n": 900,
+          "cluster_ci_lo": 0.5372222222222223,
+          "cluster_ci_hi": 0.5711111111111111,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.10910522393975941
+        },
+        "actionability": {
+          "win_rate": 0.5761111111111111,
+          "wins": 231,
+          "losses": 94,
+          "ties": 575,
+          "n": 900,
+          "cluster_ci_lo": 0.5461111111111111,
+          "cluster_ci_hi": 0.606111111111111,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.15281631019911424
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.5505555555555556,
+          "wins": 184,
+          "losses": 93,
+          "ties": 623,
+          "n": 900,
+          "cluster_ci_lo": 0.525,
+          "cluster_ci_hi": 0.576111111111111,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.10128419275040201
+        },
+        "emotional_validation": {
+          "win_rate": 0.5566666666666666,
+          "wins": 141,
+          "losses": 39,
+          "ties": 720,
+          "n": 900,
+          "cluster_ci_lo": 0.5344444444444444,
+          "cluster_ci_hi": 0.5783333333333334,
+          "signflip_p": 0.0001999600079984003,
+          "cohen_h_vs_0_5": 0.11357736376130245
+        }
+      },
+      "by_rater": {
+        "E1_supervisor_proxy": {
+          "overall_win_rate": 0.61,
+          "n": 300
+        },
+        "E2_client_experience_proxy": {
+          "overall_win_rate": 0.6166666666666667,
+          "n": 300
+        },
+        "E3_safety_reviewer_proxy": {
+          "overall_win_rate": 0.6266666666666667,
+          "n": 300
+        }
+      }
+    }
+  }
+}

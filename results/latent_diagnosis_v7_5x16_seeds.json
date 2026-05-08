@@ -1,0 +1,342 @@
+[
+  {
+    "preds_path": "runs/psystate_v7_gated_value_5x16_seed181/ckpt-220/preds_test_quick.jsonl",
+    "n_rows": 300,
+    "q1_lexicon_mimicry": {
+      "distress": {
+        "pearson_r": 0.9999999999999926,
+        "pearson_p": 0.0,
+        "spearman_r": 0.9827035215543884,
+        "mae": 7.192945309884383e-09
+      },
+      "rigidity": {
+        "pearson_r": 0.9020245094593593,
+        "pearson_p": 9.741326283091933e-111,
+        "spearman_r": 0.8545307241828859,
+        "mae": 0.1490835455005841
+      },
+      "readiness": {
+        "pearson_r": 0.8076457610389006,
+        "pearson_p": 2.4976210701882908e-70,
+        "spearman_r": 0.5638461411835008,
+        "mae": 0.0709765124350754
+      },
+      "alliance": {
+        "pearson_r": 0.9933207938944951,
+        "pearson_p": 1.542989004314249e-281,
+        "spearman_r": 0.915393915333691,
+        "mae": 0.17516018402728004
+      },
+      "clarity": {
+        "pearson_r": 0.9937545815575227,
+        "pearson_p": 7.193212981192091e-286,
+        "spearman_r": 0.5907921872398006,
+        "mae": 0.22845563225886403
+      },
+      "n": 300
+    },
+    "q2_outcome_utility": {
+      "n": 292,
+      "pos_rate": 0.3458904109589041,
+      "auroc_lexicon_logreg": 0.786402985848323,
+      "auroc_z_logreg": 0.7818153543103001,
+      "auroc_z_subspace_logreg": 0.8703022134674201,
+      "auroc_z_concat_lex": 0.791353480897828,
+      "auroc_z_mlp": 0.7916126691203152,
+      "auroc_model_uptake_head": 0.5,
+      "auroc_residual_leakage_head": null,
+      "delta_auroc_z_vs_lex": -0.004587631538022885,
+      "delta_auroc_zsubspace_vs_lex": 0.08389922761909707,
+      "delta_auroc_zmlp_vs_lex": 0.005209683271992227
+    },
+    "q3_axis_identifiability": {
+      "n": 292,
+      "d_perm_v2_train_original_test_original_auroc": 0.7818153543103001,
+      "d_perm_v2_test_permuted_auroc_mean": 0.49342102534860816,
+      "d_perm_v2_test_permuted_auroc_std": 0.14479720078574732,
+      "d_perm_v2_mean_drop": 0.288394328961692,
+      "d_perm_v2_p_permuted_ge_original": 0.005,
+      "d_axis_auc_matrix_rows_targets_cols_z_axes": [
+        [
+          1.0,
+          0.5113336847654191,
+          0.5730100158144438,
+          0.5087858021437357,
+          0.5753821823932526
+        ],
+        [
+          0.47358258732666314,
+          0.9907553683225089,
+          0.42127435492364407,
+          0.6439061494353753,
+          0.4665613480779357
+        ],
+        [
+          0.36541353383458647,
+          0.2671679197994987,
+          1.0,
+          0.5932330827067669,
+          0.38646616541353385
+        ],
+        [
+          0.5586206896551724,
+          0.646551724137931,
+          0.7517241379310344,
+          1.0,
+          0.21724137931034482
+        ],
+        [
+          0.5672413793103448,
+          0.8827586206896552,
+          0.20689655172413796,
+          0.3931034482758621,
+          1.0
+        ]
+      ],
+      "d_axis_diag_auc": {
+        "distress": 1.0,
+        "rigidity": 0.9907553683225089,
+        "readiness": 1.0,
+        "alliance": 1.0,
+        "clarity": 1.0
+      },
+      "d_axis_best_offdiag_auc": {
+        "distress": 0.5753821823932526,
+        "rigidity": 0.6439061494353753,
+        "readiness": 0.5932330827067669,
+        "alliance": 0.7517241379310344,
+        "clarity": 0.8827586206896552
+      },
+      "d_axis_diag_margin": {
+        "distress": 0.42461781760674744,
+        "rigidity": 0.3468492188871336,
+        "readiness": 0.4067669172932331,
+        "alliance": 0.24827586206896557,
+        "clarity": 0.11724137931034484
+      },
+      "d_axis_mean_diag_margin": 0.3087502390332849,
+      "d_axis_notes": [],
+      "d_swap_note": "D-SWAP requires a model forward pass after swapping named z axes before the transition/generator. It is not computable from preds-only jsonl files without re-running the model."
+    },
+    "q4_counterfactual_clinical": {
+      "safety_lowers_distress_more_than_empathy": {
+        "n": 300,
+        "win_rate": 1.0,
+        "tie_rate": 0.0,
+        "loss_rate": 0.0,
+        "mean_margin_in_theory_direction": 0.07864407032728195,
+        "binom_p_>0.5": 4.909093465297727e-91
+      },
+      "reframe_lowers_rigidity_more_than_question": {
+        "n": 300,
+        "win_rate": 1.0,
+        "tie_rate": 0.0,
+        "loss_rate": 0.0,
+        "mean_margin_in_theory_direction": 0.08662409385045369,
+        "binom_p_>0.5": 4.909093465297727e-91
+      },
+      "action_raises_readiness_more_than_reflection": {
+        "n": 300,
+        "win_rate": 1.0,
+        "tie_rate": 0.0,
+        "loss_rate": 0.0,
+        "mean_margin_in_theory_direction": 0.19217429647843043,
+        "binom_p_>0.5": 4.909093465297727e-91
+      },
+      "HELDOUT_R4_empathy_raises_alliance_more_than_question": {
+        "n": 300,
+        "win_rate": 1.0,
+        "tie_rate": 0.0,
+        "loss_rate": 0.0,
+        "mean_margin_in_theory_direction": 0.14309768676757811,
+        "binom_p_>0.5": 4.909093465297727e-91
+      },
+      "HELDOUT_R5_summarization_raises_clarity_more_than_empathy": {
+        "n": 300,
+        "win_rate": 1.0,
+        "tie_rate": 0.0,
+        "loss_rate": 0.0,
+        "mean_margin_in_theory_direction": 0.1298394976059596,
+        "binom_p_>0.5": 4.909093465297727e-91
+      },
+      "HELDOUT_R6_safety_raises_alliance_more_than_action": {
+        "n": 300,
+        "win_rate": 0.04666666666666667,
+        "tie_rate": 0.0,
+        "loss_rate": 0.9533333333333334,
+        "mean_margin_in_theory_direction": -0.019198150634765626,
+        "binom_p_>0.5": 1.0
+      }
+    }
+  },
+  {
+    "preds_path": "runs/psystate_v7_gated_value_5x16_seed182/ckpt-220/preds_test_quick.jsonl",
+    "n_rows": 300,
+    "q1_lexicon_mimicry": {
+      "distress": {
+        "pearson_r": 0.9715951730957593,
+        "pearson_p": 1.4460073635821035e-188,
+        "spearman_r": 0.8331401132972126,
+        "mae": 0.21661090705743363
+      },
+      "rigidity": {
+        "pearson_r": 0.9995396700465107,
+        "pearson_p": 0.0,
+        "spearman_r": 0.870507142482822,
+        "mae": 0.0003570243087434104
+      },
+      "readiness": {
+        "pearson_r": 0.6337892247617187,
+        "pearson_p": 4.193118963933327e-35,
+        "spearman_r": 0.5097635891385469,
+        "mae": 0.19463814811757577
+      },
+      "alliance": {
+        "pearson_r": 0.9999999989134354,
+        "pearson_p": 0.0,
+        "spearman_r": 0.9523251427857715,
+        "mae": 8.074348168092087e-07
+      },
+      "clarity": {
+        "pearson_r": 0.5911366117044643,
+        "pearson_p": 1.1740674987444927e-29,
+        "spearman_r": 0.6986966226989598,
+        "mae": 0.21515994367061875
+      },
+      "n": 300
+    },
+    "q2_outcome_utility": {
+      "n": 292,
+      "pos_rate": 0.3458904109589041,
+      "auroc_lexicon_logreg": 0.786402985848323,
+      "auroc_z_logreg": 0.7761650510600798,
+      "auroc_z_subspace_logreg": 0.9010937742988958,
+      "auroc_z_concat_lex": 0.7834223212897207,
+      "auroc_z_mlp": 0.782281893110777,
+      "auroc_model_uptake_head": 0.5,
+      "auroc_residual_leakage_head": null,
+      "delta_auroc_z_vs_lex": -0.010237934788243197,
+      "delta_auroc_zsubspace_vs_lex": 0.11469078845057279,
+      "delta_auroc_zmlp_vs_lex": -0.004121092737546017
+    },
+    "q3_axis_identifiability": {
+      "n": 292,
+      "d_perm_v2_train_original_test_original_auroc": 0.7761650510600798,
+      "d_perm_v2_test_permuted_auroc_mean": 0.4997045254263647,
+      "d_perm_v2_test_permuted_auroc_std": 0.1421411732641814,
+      "d_perm_v2_mean_drop": 0.27646052563371515,
+      "d_perm_v2_p_permuted_ge_original": 0.0,
+      "d_axis_auc_matrix_rows_targets_cols_z_axes": [
+        [
+          1.0,
+          0.5834651203654894,
+          0.5875944473730452,
+          0.528026708838517,
+          0.5501669302407309
+        ],
+        [
+          0.4748405593587268,
+          1.0,
+          0.5841085951670469,
+          0.6212919080217659,
+          0.4492422912644082
+        ],
+        [
+          0.23333333333333334,
+          0.16140350877192985,
+          1.0,
+          0.5621553884711779,
+          0.34736842105263155
+        ],
+        [
+          0.5586206896551724,
+          0.3086206896551724,
+          0.5206896551724138,
+          1.0,
+          0.2741379310344828
+        ],
+        [
+          0.5249999999999999,
+          0.8448275862068966,
+          0.33620689655172414,
+          0.4465517241379311,
+          0.960344827586207
+        ]
+      ],
+      "d_axis_diag_auc": {
+        "distress": 1.0,
+        "rigidity": 1.0,
+        "readiness": 1.0,
+        "alliance": 1.0,
+        "clarity": 0.960344827586207
+      },
+      "d_axis_best_offdiag_auc": {
+        "distress": 0.5875944473730452,
+        "rigidity": 0.6212919080217659,
+        "readiness": 0.5621553884711779,
+        "alliance": 0.5586206896551724,
+        "clarity": 0.8448275862068966
+      },
+      "d_axis_diag_margin": {
+        "distress": 0.4124055526269548,
+        "rigidity": 0.3787080919782341,
+        "readiness": 0.43784461152882215,
+        "alliance": 0.4413793103448276,
+        "clarity": 0.11551724137931041
+      },
+      "d_axis_mean_diag_margin": 0.35717096157162975,
+      "d_axis_notes": [],
+      "d_swap_note": "D-SWAP requires a model forward pass after swapping named z axes before the transition/generator. It is not computable from preds-only jsonl files without re-running the model."
+    },
+    "q4_counterfactual_clinical": {
+      "safety_lowers_distress_more_than_empathy": {
+        "n": 300,
+        "win_rate": 1.0,
+        "tie_rate": 0.0,
+        "loss_rate": 0.0,
+        "mean_margin_in_theory_direction": 0.06729966873923937,
+        "binom_p_>0.5": 4.909093465297727e-91
+      },
+      "reframe_lowers_rigidity_more_than_question": {
+        "n": 300,
+        "win_rate": 0.9966666666666667,
+        "tie_rate": 0.0,
+        "loss_rate": 0.0033333333333333335,
+        "mean_margin_in_theory_direction": 0.05840818494558334,
+        "binom_p_>0.5": 1.4776371330546157e-88
+      },
+      "action_raises_readiness_more_than_reflection": {
+        "n": 300,
+        "win_rate": 1.0,
+        "tie_rate": 0.0,
+        "loss_rate": 0.0,
+        "mean_margin_in_theory_direction": 0.09602988411982855,
+        "binom_p_>0.5": 4.909093465297727e-91
+      },
+      "HELDOUT_R4_empathy_raises_alliance_more_than_question": {
+        "n": 300,
+        "win_rate": 1.0,
+        "tie_rate": 0.0,
+        "loss_rate": 0.0,
+        "mean_margin_in_theory_direction": 0.14064032971858978,
+        "binom_p_>0.5": 4.909093465297727e-91
+      },
+      "HELDOUT_R5_summarization_raises_clarity_more_than_empathy": {
+        "n": 300,
+        "win_rate": 1.0,
+        "tie_rate": 0.0,
+        "loss_rate": 0.0,
+        "mean_margin_in_theory_direction": 0.16242723921934762,
+        "binom_p_>0.5": 4.909093465297727e-91
+      },
+      "HELDOUT_R6_safety_raises_alliance_more_than_action": {
+        "n": 300,
+        "win_rate": 0.9733333333333334,
+        "tie_rate": 0.0,
+        "loss_rate": 0.02666666666666667,
+        "mean_margin_in_theory_direction": 0.02764517068862915,
+        "binom_p_>0.5": 7.474014019197497e-76
+      }
+    }
+  }
+]

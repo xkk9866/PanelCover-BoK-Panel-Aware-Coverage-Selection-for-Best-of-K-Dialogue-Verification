@@ -1,0 +1,356 @@
+{
+  "per_pair": {
+    "v12_bon_v12_vs_lexicon_bon_v12": {
+      "n_panel": 500,
+      "n_bt": 0,
+      "panel": {
+        "overall": 0.524,
+        "helpfulness": 0.5205,
+        "empathy": 0.4745,
+        "specificity": 0.5525,
+        "appropriateness": 0.5175,
+        "safety": 0.506,
+        "avoids_over_advice": 0.4685,
+        "emotional_validation": 0.4595,
+        "actionability": 0.608
+      },
+      "bt": {
+        "overall": NaN,
+        "helpfulness": NaN,
+        "empathy": NaN,
+        "specificity": NaN,
+        "appropriateness": NaN,
+        "safety": NaN,
+        "avoids_over_advice": NaN,
+        "emotional_validation": NaN,
+        "actionability": NaN
+      },
+      "delta": {
+        "overall": NaN,
+        "helpfulness": NaN,
+        "empathy": NaN,
+        "specificity": NaN,
+        "appropriateness": NaN,
+        "safety": NaN,
+        "avoids_over_advice": NaN,
+        "emotional_validation": NaN,
+        "actionability": NaN
+      }
+    },
+    "v12_bon_v12_vs_majority_bon_v12": {
+      "n_panel": 500,
+      "n_bt": 0,
+      "panel": {
+        "overall": 0.5705,
+        "helpfulness": 0.5595,
+        "empathy": 0.4155,
+        "specificity": 0.6165,
+        "appropriateness": 0.5455,
+        "safety": 0.5255,
+        "avoids_over_advice": 0.421,
+        "emotional_validation": 0.395,
+        "actionability": 0.7475
+      },
+      "bt": {
+        "overall": NaN,
+        "helpfulness": NaN,
+        "empathy": NaN,
+        "specificity": NaN,
+        "appropriateness": NaN,
+        "safety": NaN,
+        "avoids_over_advice": NaN,
+        "emotional_validation": NaN,
+        "actionability": NaN
+      },
+      "delta": {
+        "overall": NaN,
+        "helpfulness": NaN,
+        "empathy": NaN,
+        "specificity": NaN,
+        "appropriateness": NaN,
+        "safety": NaN,
+        "avoids_over_advice": NaN,
+        "emotional_validation": NaN,
+        "actionability": NaN
+      }
+    },
+    "v12_cch_b40_bon_vs_lexicon_bon_v12": {
+      "n_panel": 500,
+      "n_bt": 500,
+      "panel": {
+        "overall": 0.5145,
+        "helpfulness": 0.5105,
+        "empathy": 0.482,
+        "specificity": 0.532,
+        "appropriateness": 0.5065,
+        "safety": 0.507,
+        "avoids_over_advice": 0.4735,
+        "emotional_validation": 0.472,
+        "actionability": 0.588
+      },
+      "bt": {
+        "overall": 0.47697565549275955,
+        "helpfulness": 0.4779186382612363,
+        "empathy": 0.48553560512632965,
+        "specificity": 0.4924511904612066,
+        "appropriateness": 0.47691547723353495,
+        "safety": 0.49805931911374285,
+        "avoids_over_advice": 0.4794116800664818,
+        "emotional_validation": 0.4852974046198848,
+        "actionability": 0.5137183345537882
+      },
+      "delta": {
+        "overall": -0.037524344507240404,
+        "helpfulness": -0.03258136173876364,
+        "empathy": 0.003535605126329666,
+        "specificity": -0.03954880953879342,
+        "appropriateness": -0.029584522766465005,
+        "safety": -0.008940680886257157,
+        "avoids_over_advice": 0.00591168006648185,
+        "emotional_validation": 0.013297404619884823,
+        "actionability": -0.07428166544621173
+      }
+    },
+    "v12_cch_b40_bon_vs_v12_bon_v12": {
+      "n_panel": 500,
+      "n_bt": 0,
+      "panel": {
+        "overall": 0.489,
+        "helpfulness": 0.49,
+        "empathy": 0.5075,
+        "specificity": 0.4795,
+        "appropriateness": 0.4915,
+        "safety": 0.5035,
+        "avoids_over_advice": 0.4995,
+        "emotional_validation": 0.509,
+        "actionability": 0.483
+      },
+      "bt": {
+        "overall": NaN,
+        "helpfulness": NaN,
+        "empathy": NaN,
+        "specificity": NaN,
+        "appropriateness": NaN,
+        "safety": NaN,
+        "avoids_over_advice": NaN,
+        "emotional_validation": NaN,
+        "actionability": NaN
+      },
+      "delta": {
+        "overall": NaN,
+        "helpfulness": NaN,
+        "empathy": NaN,
+        "specificity": NaN,
+        "appropriateness": NaN,
+        "safety": NaN,
+        "avoids_over_advice": NaN,
+        "emotional_validation": NaN,
+        "actionability": NaN
+      }
+    },
+    "v12_cond_v1_bon_vs_lexicon_bon_v12": {
+      "n_panel": 500,
+      "n_bt": 500,
+      "panel": {
+        "overall": 0.5165,
+        "helpfulness": 0.513,
+        "empathy": 0.4685,
+        "specificity": 0.553,
+        "appropriateness": 0.5105,
+        "safety": 0.5045,
+        "avoids_over_advice": 0.455,
+        "emotional_validation": 0.46,
+        "actionability": 0.6265
+      },
+      "bt": {
+        "overall": 0.4766666391332468,
+        "helpfulness": 0.477684060636559,
+        "empathy": 0.48311491081249,
+        "specificity": 0.4954903260480412,
+        "appropriateness": 0.47729726952211843,
+        "safety": 0.49703776030276514,
+        "avoids_over_advice": 0.47829974441768897,
+        "emotional_validation": 0.48337863534625003,
+        "actionability": 0.5166163308932564
+      },
+      "delta": {
+        "overall": -0.039833360866753154,
+        "helpfulness": -0.03531593936344102,
+        "empathy": 0.014614910812489945,
+        "specificity": -0.05750967395195883,
+        "appropriateness": -0.033202730477881526,
+        "safety": -0.007462239697234807,
+        "avoids_over_advice": 0.02329974441768895,
+        "emotional_validation": 0.02337863534625001,
+        "actionability": -0.10988366910674352
+      }
+    },
+    "v12_emp_hard_bon_vs_lexicon_bon_v12": {
+      "n_panel": 500,
+      "n_bt": 500,
+      "panel": {
+        "overall": 0.476,
+        "helpfulness": 0.47,
+        "empathy": 0.5065,
+        "specificity": 0.5025,
+        "appropriateness": 0.4745,
+        "safety": 0.49,
+        "avoids_over_advice": 0.4765,
+        "emotional_validation": 0.5075,
+        "actionability": 0.52
+      },
+      "bt": {
+        "overall": 0.4637920609406234,
+        "helpfulness": 0.46437663733888895,
+        "empathy": 0.4914530888363803,
+        "specificity": 0.4791346193864364,
+        "appropriateness": 0.4654830435990936,
+        "safety": 0.49293610302192953,
+        "avoids_over_advice": 0.47740388944437645,
+        "emotional_validation": 0.4954925279097245,
+        "actionability": 0.49128378522211696
+      },
+      "delta": {
+        "overall": -0.01220793905937656,
+        "helpfulness": -0.00562336266111102,
+        "empathy": -0.01504691116361967,
+        "specificity": -0.023365380613563524,
+        "appropriateness": -0.009016956400906384,
+        "safety": 0.002936103021929537,
+        "avoids_over_advice": 0.0009038894443764711,
+        "emotional_validation": -0.012007472090275473,
+        "actionability": -0.028716214777883053
+      }
+    },
+    "v12_hybrid_b40_bon_vs_lexicon_bon_v12": {
+      "n_panel": 500,
+      "n_bt": 500,
+      "panel": {
+        "overall": 0.485,
+        "helpfulness": 0.4875,
+        "empathy": 0.5055,
+        "specificity": 0.475,
+        "appropriateness": 0.489,
+        "safety": 0.5065,
+        "avoids_over_advice": 0.4925,
+        "emotional_validation": 0.508,
+        "actionability": 0.499
+      },
+      "bt": {
+        "overall": 0.48249666479423925,
+        "helpfulness": 0.4833660843754859,
+        "empathy": 0.49390421900379705,
+        "specificity": 0.4888654602660781,
+        "appropriateness": 0.48353035111783976,
+        "safety": 0.499166734710511,
+        "avoids_over_advice": 0.4890287136731456,
+        "emotional_validation": 0.4964177130259576,
+        "actionability": 0.503777452734793
+      },
+      "delta": {
+        "overall": -0.002503335205760737,
+        "helpfulness": -0.004133915624514095,
+        "empathy": -0.011595780996202898,
+        "specificity": 0.0138654602660781,
+        "appropriateness": -0.005469648882160227,
+        "safety": -0.007333265289488966,
+        "avoids_over_advice": -0.0034712863268543948,
+        "emotional_validation": -0.0115822869740424,
+        "actionability": 0.00477745273479302
+      }
+    },
+    "v12_hybrid_b40_bon_vs_v12_bon_v12": {
+      "n_panel": 500,
+      "n_bt": 0,
+      "panel": {
+        "overall": 0.468,
+        "helpfulness": 0.475,
+        "empathy": 0.532,
+        "specificity": 0.4315,
+        "appropriateness": 0.483,
+        "safety": 0.5035,
+        "avoids_over_advice": 0.532,
+        "emotional_validation": 0.546,
+        "actionability": 0.4005
+      },
+      "bt": {
+        "overall": NaN,
+        "helpfulness": NaN,
+        "empathy": NaN,
+        "specificity": NaN,
+        "appropriateness": NaN,
+        "safety": NaN,
+        "avoids_over_advice": NaN,
+        "emotional_validation": NaN,
+        "actionability": NaN
+      },
+      "delta": {
+        "overall": NaN,
+        "helpfulness": NaN,
+        "empathy": NaN,
+        "specificity": NaN,
+        "appropriateness": NaN,
+        "safety": NaN,
+        "avoids_over_advice": NaN,
+        "emotional_validation": NaN,
+        "actionability": NaN
+      }
+    }
+  },
+  "summary": {
+    "overall": {
+      "n": 4,
+      "mean_signed_delta": -0.023017244909782714,
+      "rmse": 0.028062757935869816,
+      "max_abs_delta": 0.039833360866753154
+    },
+    "helpfulness": {
+      "n": 4,
+      "mean_signed_delta": -0.019413644846957442,
+      "rmse": 0.02427690348810672,
+      "max_abs_delta": 0.03531593936344102
+    },
+    "empathy": {
+      "n": 4,
+      "mean_signed_delta": -0.002123044055250739,
+      "rmse": 0.012113709115544737,
+      "max_abs_delta": 0.01504691116361967
+    },
+    "specificity": {
+      "n": 4,
+      "mean_signed_delta": -0.026639600959559417,
+      "rmse": 0.037448841549516755,
+      "max_abs_delta": 0.05750967395195883
+    },
+    "appropriateness": {
+      "n": 4,
+      "mean_signed_delta": -0.019318464631853285,
+      "rmse": 0.022852176374124043,
+      "max_abs_delta": 0.033202730477881526
+    },
+    "safety": {
+      "n": 4,
+      "mean_signed_delta": -0.005200020712762848,
+      "rmse": 0.0070359483506183896,
+      "max_abs_delta": 0.008940680886257157
+    },
+    "avoids_over_advice": {
+      "n": 4,
+      "mean_signed_delta": 0.006661006900423219,
+      "rmse": 0.012152087228422198,
+      "max_abs_delta": 0.02329974441768895
+    },
+    "emotional_validation": {
+      "n": 4,
+      "mean_signed_delta": 0.00327157022545424,
+      "rmse": 0.015824903774001923,
+      "max_abs_delta": 0.02337863534625001
+    },
+    "actionability": {
+      "n": 4,
+      "mean_signed_delta": -0.05202602414901132,
+      "rmse": 0.06789630255696166,
+      "max_abs_delta": 0.10988366910674352
+    }
+  }
+}

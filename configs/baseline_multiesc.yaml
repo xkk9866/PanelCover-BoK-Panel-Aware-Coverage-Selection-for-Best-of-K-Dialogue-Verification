@@ -1,0 +1,58 @@
+# --- Recent baseline: MultiESC (Cheng et al., EMNLP 2022) ------------------
+# "Improving Multi-turn Emotional Support Dialogue Generation with Lookahead
+#  Strategy Planning".
+# Core algorithmic choices we reproduce:
+#   * A user-state predictor that estimates the user's emotional state at the
+#     *next* turn for every candidate strategy, and uses that lookahead signal
+#     to select the best strategy.  In our framework the user-state predictor
+#     is the state head (5 axes) and the lookahead rollout is the controlled
+#     transition module; we therefore enable state + strategy + transition
+#     heads.  No outcome supervision, no structural priors --- those are our
+#     contributions and should not be attributed to MultiESC.
+#   * The original paper used a small BART encoder; we use the shared
+#     Qwen2.5-7B-Instruct QLoRA backbone so the comparison is not confounded
+#     by backbone capacity.
+model_name_or_path: D:/models_cache/Qwen/Qwen2___5-7B-Instruct
+train_file: data/processed/train.chat.jsonl
+dev_file: data/processed/dev.chat.jsonl
+output_dir: runs/baseline_multiesc
+
+learning_rate: 1.0e-4
+head_learning_rate: 3.0e-4
+num_train_steps: 400
+per_device_batch_size: 1
+gradient_accumulation_steps: 4
+warmup_ratio: 0.03
+max_length: 1024
+max_ctx_length: 900
+bf16: true
+
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target: q_proj,k_proj,v_proj,o_proj
+
+train_subsample: 8000
+dev_subsample: 128
+log_every: 10
+eval_every: 150
+save_every: 200
+
+use_state: true
+use_strategy: true
+use_transition: true
+use_outcome: false
+use_consist: false
+use_sep: false
+use_safety: true
+
+lam_gen: 1.0
+lam_state: 0.3
+lam_strategy: 0.5
+lam_transition: 0.35
+lam_safety: 0.2
+lam_commit: 0.05
+
+load_in_4bit: true
+bnb_quant_type: nf4
+bnb_double_quant: true

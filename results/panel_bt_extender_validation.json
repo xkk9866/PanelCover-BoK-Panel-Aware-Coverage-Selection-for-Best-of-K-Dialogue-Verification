@@ -1,0 +1,153 @@
+{
+  "n_train": 1129,
+  "n_test": 282,
+  "rows": [
+    {
+      "expert": "E1_supervisor",
+      "dim": "overall",
+      "r": 0.2261337011593263,
+      "mae": 0.2323348148601521,
+      "rmse": 0.3280322866342322
+    },
+    {
+      "expert": "E1_supervisor",
+      "dim": "helpfulness",
+      "r": 0.22420123612071124,
+      "mae": 0.22326779332841717,
+      "rmse": 0.32036684330580456
+    },
+    {
+      "expert": "E1_supervisor",
+      "dim": "empathy",
+      "r": 0.3931082930796832,
+      "mae": 0.13157875488177023,
+      "rmse": 0.19983647245762973
+    },
+    {
+      "expert": "E1_supervisor",
+      "dim": "specificity",
+      "r": 0.4163489965373489,
+      "mae": 0.2072495851474958,
+      "rmse": 0.2823956174974526
+    },
+    {
+      "expert": "E1_supervisor",
+      "dim": "actionability",
+      "r": 0.5363992000880788,
+      "mae": 0.23526595059910876,
+      "rmse": 0.3246508485462745
+    },
+    {
+      "expert": "E1_supervisor",
+      "dim": "appropriateness",
+      "r": 0.19493516445047335,
+      "mae": 0.21720426922587083,
+      "rmse": 0.309580757195707
+    },
+    {
+      "expert": "E1_supervisor",
+      "dim": "safety",
+      "r": 0.4523645462464104,
+      "mae": 0.06606781848109965,
+      "rmse": 0.1258408815725317
+    },
+    {
+      "expert": "E2_client_experience",
+      "dim": "overall",
+      "r": 0.25424594416995666,
+      "mae": 0.21697441570106943,
+      "rmse": 0.30592931880903024
+    },
+    {
+      "expert": "E2_client_experience",
+      "dim": "helpfulness",
+      "r": 0.2596047179279461,
+      "mae": 0.2034654315745966,
+      "rmse": 0.289424735208507
+    },
+    {
+      "expert": "E2_client_experience",
+      "dim": "empathy",
+      "r": 0.4595347025274036,
+      "mae": 0.1502925041137645,
+      "rmse": 0.22261647745347266
+    },
+    {
+      "expert": "E2_client_experience",
+      "dim": "specificity",
+      "r": 0.4147132148654513,
+      "mae": 0.1878712979879628,
+      "rmse": 0.26471578537813734
+    },
+    {
+      "expert": "E2_client_experience",
+      "dim": "actionability",
+      "r": 0.5702667973362641,
+      "mae": 0.22579657295407143,
+      "rmse": 0.3047424007504875
+    },
+    {
+      "expert": "E2_client_experience",
+      "dim": "appropriateness",
+      "r": 0.23444326119271894,
+      "mae": 0.20456136753706008,
+      "rmse": 0.2866620331904546
+    },
+    {
+      "expert": "E2_client_experience",
+      "dim": "safety",
+      "r": 0.504564687565741,
+      "mae": 0.05901807780985532,
+      "rmse": 0.10776144108005196
+    },
+    {
+      "expert": "E3_safety_reviewer",
+      "dim": "overall",
+      "r": 0.29590712783696477,
+      "mae": 0.22031985466730072,
+      "rmse": 0.3117407004756741
+    },
+    {
+      "expert": "E3_safety_reviewer",
+      "dim": "helpfulness",
+      "r": 0.30533769325089,
+      "mae": 0.2109865819689539,
+      "rmse": 0.30166910275366965
+    },
+    {
+      "expert": "E3_safety_reviewer",
+      "dim": "empathy",
+      "r": 0.35827432250526625,
+      "mae": 0.12923783486576632,
+      "rmse": 0.20747320212429202
+    },
+    {
+      "expert": "E3_safety_reviewer",
+      "dim": "specificity",
+      "r": 0.4399855134296802,
+      "mae": 0.20304490703283412,
+      "rmse": 0.2872716593782192
+    },
+    {
+      "expert": "E3_safety_reviewer",
+      "dim": "actionability",
+      "r": 0.5598503666931343,
+      "mae": 0.22338986378291695,
+      "rmse": 0.3062164246362643
+    },
+    {
+      "expert": "E3_safety_reviewer",
+      "dim": "appropriateness",
+      "r": 0.2810559347994681,
+      "mae": 0.19933307348035287,
+      "rmse": 0.2887608185917176
+    },
+    {
+      "expert": "E3_safety_reviewer",
+      "dim": "safety",
+      "r": 0.45851220451457786,
+      "mae": 0.11645554022631664,
+      "rmse": 0.18134169933591918
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+focal,baseline,n,winrate,winrate_ci_lo,winrate_ci_hi,p,utility_gap,utility_gap_ci_lo,utility_gap_ci_hi
+psystate_pasct,misc,500,0.5537,0.5472,0.5607,0.0002,0.2233,0.1956,0.2534
+psystate_pasct,multiesc,500,0.5617,0.5554,0.5685,0.0002,0.2563,0.2294,0.2854
+psystate_pasct,transesc,500,0.5576,0.5509,0.5647,0.0002,0.2400,0.2111,0.2702
+psystate_pasct,kemi_full,500,0.5544,0.5480,0.5611,0.0002,0.2258,0.1986,0.2545
+psystate_pasct,rag,500,0.5520,0.5454,0.5588,0.0002,0.2159,0.1876,0.2451

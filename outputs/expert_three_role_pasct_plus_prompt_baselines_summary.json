@@ -1,0 +1,219 @@
+{
+  "pairs": {
+    "pasct_plus_vs_llm_direct": {
+      "n": 1500,
+      "per_dim": {
+        "helpfulness": {
+          "win_rate": 0.10766666666666666,
+          "wins": 132,
+          "losses": 1309,
+          "ties": 59,
+          "n": 1500
+        },
+        "empathy": {
+          "win_rate": 0.06166666666666667,
+          "wins": 15,
+          "losses": 1330,
+          "ties": 155,
+          "n": 1500
+        },
+        "specificity": {
+          "win_rate": 0.45166666666666666,
+          "wins": 261,
+          "losses": 406,
+          "ties": 833,
+          "n": 1500
+        },
+        "appropriateness": {
+          "win_rate": 0.118,
+          "wins": 115,
+          "losses": 1261,
+          "ties": 124,
+          "n": 1500
+        },
+        "safety": {
+          "win_rate": 0.487,
+          "wins": 92,
+          "losses": 131,
+          "ties": 1277,
+          "n": 1500
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.217,
+          "wins": 123,
+          "losses": 972,
+          "ties": 405,
+          "n": 1500
+        },
+        "emotional_validation": {
+          "win_rate": 0.044333333333333336,
+          "wins": 22,
+          "losses": 1389,
+          "ties": 89,
+          "n": 1500
+        },
+        "actionability": {
+          "win_rate": 0.6586666666666666,
+          "wins": 863,
+          "losses": 387,
+          "ties": 250,
+          "n": 1500
+        },
+        "overall": {
+          "win_rate": 0.10333333333333333,
+          "wins": 150,
+          "losses": 1340,
+          "ties": 10,
+          "n": 1500
+        }
+      }
+    },
+    "pasct_plus_vs_escot": {
+      "n": 1500,
+      "per_dim": {
+        "helpfulness": {
+          "win_rate": 0.6653333333333333,
+          "wins": 970,
+          "losses": 474,
+          "ties": 56,
+          "n": 1500
+        },
+        "empathy": {
+          "win_rate": 0.4673333333333333,
+          "wins": 352,
+          "losses": 450,
+          "ties": 698,
+          "n": 1500
+        },
+        "specificity": {
+          "win_rate": 0.58,
+          "wins": 654,
+          "losses": 414,
+          "ties": 432,
+          "n": 1500
+        },
+        "appropriateness": {
+          "win_rate": 0.6546666666666666,
+          "wins": 924,
+          "losses": 460,
+          "ties": 116,
+          "n": 1500
+        },
+        "safety": {
+          "win_rate": 0.5386666666666666,
+          "wins": 181,
+          "losses": 65,
+          "ties": 1254,
+          "n": 1500
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.6636666666666666,
+          "wins": 809,
+          "losses": 318,
+          "ties": 373,
+          "n": 1500
+        },
+        "emotional_validation": {
+          "win_rate": 0.43666666666666665,
+          "wins": 462,
+          "losses": 652,
+          "ties": 386,
+          "n": 1500
+        },
+        "actionability": {
+          "win_rate": 0.7376666666666667,
+          "wins": 1009,
+          "losses": 296,
+          "ties": 195,
+          "n": 1500
+        },
+        "overall": {
+          "win_rate": 0.6603333333333333,
+          "wins": 975,
+          "losses": 494,
+          "ties": 31,
+          "n": 1500
+        }
+      }
+    },
+    "pasct_plus_vs_self_refine": {
+      "n": 1500,
+      "per_dim": {
+        "helpfulness": {
+          "win_rate": 0.56,
+          "wins": 782,
+          "losses": 602,
+          "ties": 116,
+          "n": 1500
+        },
+        "empathy": {
+          "win_rate": 0.36333333333333334,
+          "wins": 158,
+          "losses": 568,
+          "ties": 774,
+          "n": 1500
+        },
+        "specificity": {
+          "win_rate": 0.6496666666666666,
+          "wins": 719,
+          "losses": 270,
+          "ties": 511,
+          "n": 1500
+        },
+        "appropriateness": {
+          "win_rate": 0.541,
+          "wins": 713,
+          "losses": 590,
+          "ties": 197,
+          "n": 1500
+        },
+        "safety": {
+          "win_rate": 0.528,
+          "wins": 163,
+          "losses": 79,
+          "ties": 1258,
+          "n": 1500
+        },
+        "avoids_over_advice": {
+          "win_rate": 0.514,
+          "wins": 495,
+          "losses": 453,
+          "ties": 552,
+          "n": 1500
+        },
+        "emotional_validation": {
+          "win_rate": 0.30966666666666665,
+          "wins": 234,
+          "losses": 805,
+          "ties": 461,
+          "n": 1500
+        },
+        "actionability": {
+          "win_rate": 0.7263333333333334,
+          "wins": 971,
+          "losses": 292,
+          "ties": 237,
+          "n": 1500
+        },
+        "overall": {
+          "win_rate": 0.551,
+          "wins": 797,
+          "losses": 644,
+          "ties": 59,
+          "n": 1500
+        }
+      }
+    }
+  },
+  "meta": {
+    "model": "qwen-max",
+    "n_contexts_requested": 500,
+    "n_raw_rows": 4500,
+    "roles": [
+      "E1_supervisor_proxy",
+      "E2_client_experience_proxy",
+      "E3_safety_reviewer_proxy"
+    ],
+    "note": "Surrogate Qwen-max evaluation; not a replacement for human experts."
+  }
+}

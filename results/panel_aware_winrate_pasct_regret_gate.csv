@@ -1,0 +1,6 @@
+focal,baseline,n,winrate,winrate_ci_lo,winrate_ci_hi,p,utility_gap,utility_gap_ci_lo,utility_gap_ci_hi
+pasct_regret_gate,btgreedy,500,0.5046,0.5026,0.5066,0.0002,0.0183,0.0099,0.0269
+pasct_regret_gate,pasct_dro_anchor,500,0.4986,0.4973,0.4995,1.0000,-0.0059,-0.0118,-0.0022
+pasct_regret_gate,misc,500,0.5537,0.5471,0.5608,0.0002,0.2232,0.1953,0.2537
+pasct_regret_gate,multiesc,500,0.5616,0.5554,0.5685,0.0002,0.2562,0.2292,0.2854
+pasct_regret_gate,transesc,500,0.5576,0.5509,0.5646,0.0002,0.2400,0.2112,0.2703
